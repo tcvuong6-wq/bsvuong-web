@@ -52,6 +52,7 @@ let category='all';const search=document.getElementById('search'),cards=[...docu
 const dlg=document.getElementById('articleDialog'),title=document.getElementById('dialogTitle'),body=document.getElementById('dialogBody'),tag=document.getElementById('dialogTag');document.querySelectorAll('[data-article]').forEach(btn=>btn.addEventListener('click',()=>{const item=ARTICLE_DATA[btn.dataset.article];if(!item)return;title.textContent=item.title;tag.textContent=item.topic;const nodes=[];if(item.image){const img=document.createElement('img');img.className='dialog-img';img.src=item.image;img.alt=item.imageAlt||item.title;nodes.push(img)}nodes.push(...item.parts.map(p=>{const el=document.createElement('p');el.textContent=p;return el}));if(item.image2){const img2=document.createElement('img');img2.className='dialog-img';img2.src=item.image2;img2.alt=item.image2Alt||item.title;img2.style.marginTop='16px';nodes.push(img2)}body.replaceChildren(...nodes);if(typeof dlg.showModal==='function'){if(!dlg.open)dlg.showModal()}else dlg.setAttribute('open','')}));document.getElementById('closeDialog').addEventListener('click',()=>dlg.close());dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close()});
 </script>
 </body></html>
+<!-- Cập nhật xuất bản GitHub Pages: 19/11/2026 -->
 
 
 
