@@ -20,6 +20,359 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500..700;1,500..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    /* Khung Hỏi đáp Giáo dục Sức khỏe Răng miệng chuẩn MID */
+    #tro-ly-mid {
+      background: #FFFFFF;
+      border: 2px solid #0B2E5E;
+      border-radius: 22px;
+      box-shadow: 0 16px 38px rgba(11, 46, 94, 0.12);
+      overflow: hidden;
+      margin: 0 auto 2.5rem;
+      font-size: 17px;
+      line-height: 1.65;
+      color: #102A43;
+    }
+
+    .mid-head {
+      background: linear-gradient(135deg, #0B2E5E 0%, #12486B 55%, #0D9488 100%);
+      color: #FFFFFF;
+      padding: 1.5rem 1.75rem;
+    }
+
+    .mid-head__badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.18);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      color: #FFFFFF;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      padding: 0.28rem 0.85rem;
+      border-radius: 999px;
+      margin-bottom: 0.6rem;
+    }
+
+    .mid-head__title {
+      margin: 0;
+      font-family: var(--font-serif);
+      font-size: clamp(1.35rem, 2.5vw, 1.8rem);
+      font-weight: 700;
+      line-height: 1.3;
+      color: #FFFFFF;
+    }
+
+    .mid-head__sub {
+      margin: 0.45rem 0 0;
+      font-size: 1rem;
+      color: #E6FFFA;
+    }
+
+    .mid-body {
+      padding: 1.5rem 1.75rem;
+      display: grid;
+      gap: 1.35rem;
+    }
+
+    /* (a) Lưu ý bảo mật & y khoa */
+    .mid-notice {
+      background: #F0F7FF;
+      border: 1.5px solid #93C5FD;
+      border-left: 6px solid #0B2E5E;
+      border-radius: 14px;
+      padding: 1rem 1.2rem;
+      font-size: 1rem;
+      color: #0B2E5E;
+    }
+
+    .mid-notice strong {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-size: 1.05rem;
+    }
+
+    /* (b) Hàng 4 nút gợi ý câu hỏi nhanh */
+    .mid-quick__label {
+      display: block;
+      font-weight: 700;
+      color: #0B2E5E;
+      font-size: 1.05rem;
+      margin-bottom: 0.65rem;
+    }
+
+    .mid-quick__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 0.7rem;
+    }
+
+    .mid-quick-btn {
+      appearance: none;
+      background: #F4FBF9;
+      border: 1.5px solid #0D9488;
+      color: #0B2E5E;
+      border-radius: 14px;
+      padding: 0.78rem 1rem;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.4;
+      text-align: left;
+      cursor: pointer;
+      transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+    }
+
+    .mid-quick-btn:hover,
+    .mid-quick-btn:focus-visible {
+      background: #0D9488;
+      color: #FFFFFF;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(13, 148, 136, 0.24);
+      outline: none;
+    }
+
+    /* (c) Ô nhập câu hỏi & nút hành động */
+    .mid-input-wrap label {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      font-weight: 700;
+      color: #0B2E5E;
+      font-size: 1.05rem;
+      margin-bottom: 0.55rem;
+    }
+
+    .mid-char-count {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #475569;
+    }
+
+    .mid-textarea {
+      width: 100%;
+      min-height: 118px;
+      padding: 0.95rem 1.1rem;
+      border: 2px solid #94A3B8;
+      border-radius: 16px;
+      font-family: inherit;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+      color: #0F172A;
+      background: #FFFFFF;
+      resize: vertical;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .mid-textarea:focus {
+      outline: none;
+      border-color: #0D9488;
+      box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.18);
+    }
+
+    .mid-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin-top: 0.85rem;
+    }
+
+    .mid-btn-submit {
+      appearance: none;
+      background: #0B2E5E;
+      color: #FFFFFF;
+      border: 2px solid #0B2E5E;
+      border-radius: 14px;
+      padding: 0.85rem 1.45rem;
+      font-family: inherit;
+      font-size: 1.0625rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background-color 0.2s ease, transform 0.15s ease;
+    }
+
+    .mid-btn-submit:hover,
+    .mid-btn-submit:focus-visible {
+      background: #0D9488;
+      border-color: #0D9488;
+      transform: translateY(-1px);
+      outline: none;
+    }
+
+    .mid-btn-clear {
+      appearance: none;
+      background: #FFFFFF;
+      color: #0B2E5E;
+      border: 2px solid #CBD5E1;
+      border-radius: 14px;
+      padding: 0.85rem 1.25rem;
+      font-family: inherit;
+      font-size: 1.0625rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .mid-btn-clear:hover,
+    .mid-btn-clear:focus-visible {
+      background: #F1F5F9;
+      border-color: #0B2E5E;
+      outline: none;
+    }
+
+    /* (d) Vùng hiển thị câu trả lời */
+    .mid-answer-box {
+      background: #F8FAFC;
+      border: 1.5px solid #CBD5E1;
+      border-radius: 16px;
+      padding: 1.25rem 1.35rem;
+      font-size: 1.0625rem;
+      line-height: 1.7;
+      color: #0F172A;
+    }
+
+    .mid-answer-box--redflag {
+      background: #FEF2F2;
+      border: 2.5px solid #DC2626;
+      color: #7F1D1D;
+    }
+
+    .mid-answer-box--warning {
+      background: #FFFBEB;
+      border: 2px solid #D97706;
+      color: #78350F;
+    }
+
+    .mid-answer__header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      margin-bottom: 0.85rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 1.5px solid rgba(11, 46, 94, 0.14);
+    }
+
+    .mid-answer__title {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #0B2E5E;
+    }
+
+    .mid-answer-box--redflag .mid-answer__title {
+      color: #B91C1C;
+    }
+
+    .mid-answer__tag {
+      display: inline-block;
+      background: #CCFBF1;
+      color: #0F766E;
+      font-size: 0.88rem;
+      font-weight: 700;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+    }
+
+    .mid-answer-box--redflag .mid-answer__tag {
+      background: #DC2626;
+      color: #FFFFFF;
+    }
+
+    .mid-answer__sanitized {
+      background: #FFFFFF;
+      border: 1px dashed #94A3B8;
+      border-radius: 10px;
+      padding: 0.65rem 0.9rem;
+      margin-bottom: 0.95rem;
+      font-size: 0.98rem;
+      color: #334155;
+    }
+
+    .mid-answer__section {
+      margin-bottom: 0.85rem;
+    }
+
+    .mid-answer__section:last-child {
+      margin-bottom: 0;
+    }
+
+    .mid-answer__section h4 {
+      margin: 0 0 0.3rem;
+      font-size: 1.0625rem;
+      color: #0B2E5E;
+    }
+
+    .mid-answer-box--redflag .mid-answer__section h4 {
+      color: #991B1B;
+    }
+
+    .mid-answer__section p,
+    .mid-answer__section ul {
+      margin: 0;
+    }
+
+    .mid-answer__section ul {
+      padding-left: 1.35rem;
+      margin-top: 0.3rem;
+    }
+
+    .mid-answer__section li {
+      margin-bottom: 0.3rem;
+    }
+
+    .mid-emergency-cta {
+      display: inline-block;
+      margin-top: 0.85rem;
+      background: #DC2626;
+      color: #FFFFFF;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 0.75rem 1.25rem;
+      border-radius: 12px;
+    }
+
+    .mid-emergency-cta:hover {
+      background: #B91C1C;
+    }
+
+    /* (e) Chân khung cố định thông tin liên hệ */
+    .mid-footer {
+      background: #0B2E5E;
+      color: #FFFFFF;
+      padding: 1rem 1.75rem;
+      font-size: 1rem;
+      line-height: 1.55;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+
+    .mid-footer a {
+      color: #5EEAD4;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .mid-head,
+      .mid-body,
+      .mid-footer {
+        padding-left: 1.15rem;
+        padding-right: 1.15rem;
+      }
+
+      .mid-btn-submit,
+      .mid-btn-clear {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -367,6 +720,68 @@
           </p>
         </div>
 
+        <!-- KHUNG HỎI ĐÁP GIÁO DỤC SỨC KHỎE RĂNG MIỆNG CHUẨN MID -->
+        <div id="tro-ly-mid" role="region" aria-labelledby="midAssistTitle">
+          <div class="mid-head">
+            <span class="mid-head__badge">Nha khoa Can thiệp Tối thiểu (MID)</span>
+            <h3 class="mid-head__title" id="midAssistTitle">Trợ lý Giáo dục Sức khỏe Răng miệng chuẩn MID</h3>
+            <p class="mid-head__sub">Hỗ trợ giải thích kiến thức bảo tồn mô răng thật, chăm sóc phòng ngừa cho người trung niên, cao tuổi và gia đình.</p>
+          </div>
+
+          <div class="mid-body">
+            <!-- (a) Lưu ý bảo mật & y khoa -->
+            <div class="mid-notice" role="note">
+              <strong>Lưu ý bảo mật &amp; an toàn y khoa:</strong>
+              Vui lòng <strong>không nhập họ tên, số CCCD, số điện thoại cá nhân</strong> vào ô hỏi đáp. Nội dung trả lời chỉ phục vụ mục đích <strong>giáo dục sức khỏe ban đầu</strong> theo triết lý MID, <strong>không thay thế chẩn đoán khẳng định hay kê đơn điều trị</strong> trực tiếp của bác sĩ.
+            </div>
+
+            <!-- (b) Hàng 4 nút gợi ý câu hỏi nhanh -->
+            <div>
+              <span class="mid-quick__label">Chọn nhanh câu hỏi thường gặp:</span>
+              <div class="mid-quick__grid">
+                <button class="mid-quick-btn" type="button" data-mid-question="Chớm sâu đốm trắng có cần khoan không?">Chớm sâu đốm trắng có cần khoan không?</button>
+                <button class="mid-quick-btn" type="button" data-mid-question="Mòn cổ răng ê buốt chăm sóc thế nào?">Mòn cổ răng ê buốt chăm sóc thế nào?</button>
+                <button class="mid-quick-btn" type="button" data-mid-question="Chảy máu chân răng tuổi trung niên">Chảy máu chân răng tuổi trung niên</button>
+                <button class="mid-quick-btn" type="button" data-mid-question="Răng nứt ngầm đau nhói khi nhai">Răng nứt ngầm đau nhói khi nhai</button>
+              </div>
+            </div>
+
+            <!-- (c) Ô nhập câu hỏi (tối đa 1000 ký tự) + nút hành động -->
+            <div class="mid-input-wrap">
+              <label for="midQuestionInput">
+                <span>Nhập câu hỏi hoặc băn khoăn răng miệng của bạn:</span>
+                <span class="mid-char-count" id="midCharCount">0 / 1000 ký tự</span>
+              </label>
+              <textarea
+                id="midQuestionInput"
+                class="mid-textarea"
+                maxlength="1000"
+                placeholder="Ví dụ: Tôi bị ê buốt vùng cổ răng khi uống nước lạnh, có cách nào chăm sóc bảo tồn không?"
+              ></textarea>
+              <div class="mid-actions">
+                <button class="mid-btn-submit" id="midSubmitBtn" type="button">Nhận tư vấn kiến thức MID</button>
+                <button class="mid-btn-clear" id="midClearBtn" type="button">Xóa nội dung</button>
+              </div>
+            </div>
+
+            <!-- (d) Vùng hiển thị câu trả lời có cấu trúc -->
+            <div class="mid-answer-box" id="midAnswerBox" aria-live="polite">
+              <div class="mid-answer__header">
+                <h4 class="mid-answer__title">Hướng dẫn kiến thức chuẩn MID</h4>
+                <span class="mid-answer__tag">Sẵn sàng hỗ trợ</span>
+              </div>
+              <div class="mid-answer__section">
+                <p>Hãy chọn một câu hỏi gợi ý ở trên hoặc nhập băn khoăn của bạn (tối đa 1000 ký tự) rồi bấm <strong>“Nhận tư vấn kiến thức MID”</strong> để xem giải thích theo nguyên tắc bảo tồn răng thật.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- (e) Chân khung cố định thông tin liên hệ -->
+          <div class="mid-footer">
+            <span>BS Trịnh Công Vương - Phòng khám Nha khoa Gia đình | Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, Thái Nguyên | ĐT: <a href="tel:+84912343858">0912 343 858</a></span>
+          </div>
+        </div>
+
         <div class="kb-toolbar">
           <div class="kb-search-row">
             <label class="skip-link" for="search">Tìm kiếm bài viết nha khoa</label>
@@ -688,5 +1103,444 @@
 
   <script src="assets/js/articles-data.js" defer></script>
   <script src="assets/js/app.js" defer></script>
+  <script>
+    (() => {
+      const DENTAL_AI7_API_URL = "";
+
+      const MAX_CHARS = 1000;
+      const RED_FLAGS = [
+        "sưng to mặt",
+        "sưng lan tỏa",
+        "khó thở",
+        "khó nuốt",
+        "khít hàm",
+        "sốt cao",
+        "chảy máu không cầm",
+        "chấn thương hàm"
+      ];
+
+      const PRESCRIPTION_OR_DIAGNOSIS_KEYWORDS = [
+        "kê đơn",
+        "ke don",
+        "cho đơn thuốc",
+        "bán thuốc",
+        "mua thuốc gì",
+        "uống thuốc gì",
+        "kháng sinh",
+        "khang sinh",
+        "thuốc giảm đau",
+        "giam dau",
+        "amoxicillin",
+        "augmentin",
+        "metronidazol",
+        "paracetamol",
+        "ibuprofen",
+        "chẩn đoán chắc chắn",
+        "khẳng định bị",
+        "kết luận chính xác bệnh"
+      ];
+
+      const MID_KNOWLEDGE_TOPICS = {
+        chomSauDomTrang: {
+          title: "Chớm sâu đốm trắng (Tổn thương men sớm)",
+          tag: "Chuyên đề 1 · Dự phòng & Bảo tồn MID",
+          overview: "Đốm trắng đục trên bề mặt men răng thường là dấu hiệu mất khoáng giai đoạn sớm (chớm sâu), khi bề mặt men chưa sập thành lỗ sâu thực sự.",
+          mechanism: "Axit từ mảng bám vi khuẩn hòa tan khoáng chất canxi và phốt phát dưới bề mặt men, làm thay đổi độ trong của men răng nên nhìn thấy màu trắng đục như phấn.",
+          midCare: [
+            "Theo triết lý Nha khoa Can thiệp Tối thiểu (MID), tổn thương đốm trắng chưa tạo xoang thường KHÔNG cần khoan mài ngay.",
+            "Ưu tiên tái khoáng hóa men răng bằng kem đánh răng chứa fluor chuẩn nồng độ, vecni fluor hoặc sản phẩm chứa CPP-ACP theo hướng dẫn của bác sĩ.",
+            "Kiểm soát mảng bám, giảm tần suất ăn vặt đồ ngọt/axit và theo dõi định kỳ 3–6 tháng để đánh giá sự ngừng tiến triển."
+          ],
+          whenToVisit: "Nên khám trực tiếp nếu đốm trắng chuyển sang nâu đen, bề mặt nhám hoặc có cảm giác mắc thức ăn, ê buốt."
+        },
+        monCoRang: {
+          title: "Mòn cổ răng & Ê buốt ngà",
+          tag: "Chuyên đề 1 · Bảo tồn cổ răng chuẩn MID",
+          overview: "Vùng cổ răng gần đường viền nướu có lớp men rất mỏng. Khi bị mòn khuyết hình chêm hoặc tụt nướu, lớp ngà bên dưới lộ ra gây ê buốt khi gặp lạnh, chua hoặc chải răng.",
+          mechanism: "Thường do lực chải răng quá mạnh với bàn chải lông cứng, chải ngang, kết hợp với sang chấn khớp cắn (nghiến răng, ăn nhai lệch) hoặc môi trường axit.",
+          midCare: [
+            "Đổi ngay sang bàn chải lông siêu mềm, chải nhẹ theo chiều dọc hoặc xoay tròn nhẹ nhàng từ nướu xuống răng.",
+            "Dùng kem đánh răng chống ê buốt (chứa kali nitrat, stannous fluoride hoặc arginine) đều đặn để bịt kín ống ngà.",
+            "Tránh súc miệng ngay sau khi ăn đồ chua; nếu vết mòn sâu gây ê kéo dài, bác sĩ sẽ cân nhắc hàn cổ răng bảo tồn bằng vật liệu GIC/composite tương thích sinh học mà không mài mô lành."
+          ],
+          whenToVisit: "Cần đi khám khi vết lõm cổ răng sâu rõ, ê buốt tăng dần hoặc kèm viêm tụt nướu."
+        },
+        chayMauChanRang: {
+          title: "Chảy máu chân răng tuổi trung niên & Viêm quanh răng",
+          tag: "Chuyên đề 1 · Nha chu bảo tồn",
+          overview: "Ở tuổi trung niên, chảy máu khi chải răng hoặc ăn nhai thường là tín hiệu sớm của viêm nướu hoặc viêm quanh răng do mảng bám và cao răng tích tụ lâu ngày.",
+          mechanism: "Vi khuẩn trong cao răng dưới nướu gây phản ứng viêm mạn tính; nếu kéo dài không kiểm soát sẽ âm thầm làm tiêu xương ổ răng và lung lay răng.",
+          midCare: [
+            "Không tự ý dùng thuốc kháng sinh hay ngừng chải răng; vẫn giữ vệ sinh nhẹ nhàng vùng nướu bằng bàn chải mềm và chỉ nha khoa/tăm nước.",
+            "Thực hiện lấy cao răng siêu âm và làm sạch bề mặt chân răng định kỳ (thường 6 tháng/lần) để loại bỏ nguyên nhân gây viêm.",
+            "Nếu có bệnh nền như đái tháo đường, tim mạch hoặc đang dùng thuốc chống đông, cần thông báo rõ với bác sĩ trước khi can thiệp."
+          ],
+          whenToVisit: "Nên khám sớm nếu nướu sưng đỏ kéo dài, chảy máu tự nhiên, hơi thở hôi dai dẳng hoặc cảm thấy răng lung lay."
+        },
+        rangNutNgam: {
+          title: "Răng nứt ngầm & Sâu chân răng",
+          tag: "Chuyên đề 2 · Bảo tồn cấu trúc răng",
+          overview: "Đau nhói thoáng qua khi cắn trúng vật cứng hoặc khi nhả khớp là biểu hiện hay gặp của hội chứng răng nứt ngầm; trong khi sâu chân răng hay gặp ở người trung niên – cao tuổi bị tụt nướu.",
+          mechanism: "Răng hàm chịu lực nhai lớn lâu năm (đặc biệt răng đã có miếng trám lớn) dễ xuất hiện vi nứt. Sâu chân răng tiến triển nhanh hơn thân răng vì vùng chân răng không có men bảo vệ.",
+          midCare: [
+            "Tránh nhai đá, gặm xương, cắn hạt cứng bằng bên răng đang nghi ngờ nứt để ngăn đường nứt lan sâu xuống buồng tủy hoặc chẻ dọc chân răng.",
+            "Vệ sinh kỹ vùng cổ và kẽ răng, sử dụng kem đánh răng giàu fluor giúp bảo vệ bề mặt chân răng.",
+            "Khám lâm sàng kết hợp soi đèn, thử nghiệm cắn hoặc phim X-quang để bác sĩ định hướng bảo tồn (trám gia cố, chụp bảo vệ thân răng hoặc điều trị nội nha kịp thời)."
+          ],
+          whenToVisit: "Cần thăm khám sớm khi đau nhói lặp lại lúc nhai hoặc đau buốt kéo dài sau kích thích nóng/lạnh."
+        },
+        chamSocCaoTuoiTreEm: {
+          title: "Chăm sóc răng miệng Người cao tuổi & Trẻ em theo chuẩn MID",
+          tag: "Chuyên đề 3 · Dự phòng theo lứa tuổi",
+          overview: "Người cao tuổi thường đối mặt với khô miệng do thuốc bệnh nền, tụt nướu và sâu chân răng; trẻ em lại dễ sâu hố rãnh răng hàm lớn số 6 mới mọc.",
+          midCare: [
+            "Với người cao tuổi: uống đủ nước từng ngụm nhỏ, vệ sinh răng giả tháo lắp hàng ngày (ngâm dung dịch chuyên dụng, tháo ra ban đêm), chải răng 2 lần/ngày với kem có fluor và khám định kỳ cùng đơn thuốc bệnh nền đang dùng.",
+            "Với trẻ em: chải răng ngay từ khi mọc răng sữa với lượng kem fluor phù hợp lứa tuổi, hạn chế đồ ngọt dính giữa các bữa và cân nhắc trám bít hố rãnh dự phòng răng số 6 theo chỉ định bác sĩ."
+          ],
+          whenToVisit: "Duy trì khám răng định kỳ mỗi 6 tháng để phát hiện sớm tổn thương không triệu chứng."
+        }
+      };
+
+      function escapeHtml(value) {
+        return String(value == null ? "" : value)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
+      function sanitizePii(rawText) {
+        let masked = String(rawText || "");
+        let hasMasked = false;
+
+        // Che số điện thoại 10 số (liền hoặc có dấu cách/chấm/gạch)
+        const formattedPhoneRegex = /(?<!\d)0\d{2,3}[\s.-]\d{3}[\s.-]\d{3,4}(?!\d)/g;
+        masked = masked.replace(formattedPhoneRegex, (match) => {
+          const digits = match.replace(/\D/g, "");
+          if (digits.length === 10) {
+            hasMasked = true;
+            return "[SDT_DA_AN_DANH]";
+          }
+          return match;
+        });
+
+        const plainPhoneRegex = /(?<!\d)0\d{9}(?!\d)/g;
+        masked = masked.replace(plainPhoneRegex, () => {
+          hasMasked = true;
+          return "[SDT_DA_AN_DANH]";
+        });
+
+        // Che số CCCD/CMND 9-12 số còn lại
+        const cccdRegex = /(?<!\d)\d{9,12}(?!\d)/g;
+        masked = masked.replace(cccdRegex, () => {
+          hasMasked = true;
+          return "[CCCD_DA_AN_DANH]";
+        });
+
+        return { maskedText: masked, hasMasked };
+      }
+
+      function detectRedFlags(text) {
+        const lower = text.toLowerCase();
+        return RED_FLAGS.filter((flag) => lower.includes(flag));
+      }
+
+      function isRequestingPrescriptionOrDiagnosis(text) {
+        const lower = text.toLowerCase();
+        return PRESCRIPTION_OR_DIAGNOSIS_KEYWORDS.some((kw) => lower.includes(kw));
+      }
+
+      function matchMidTopic(text) {
+        const lower = text.toLowerCase();
+        if (lower.includes("đốm trắng") || lower.includes("dom trang") || lower.includes("chớm sâu") || lower.includes("chom sau")) {
+          return MID_KNOWLEDGE_TOPICS.chomSauDomTrang;
+        }
+        if (lower.includes("mòn cổ") || lower.includes("mon co") || lower.includes("ê buốt") || lower.includes("e buot") || lower.includes("cổ răng")) {
+          return MID_KNOWLEDGE_TOPICS.monCoRang;
+        }
+        if (lower.includes("chảy máu") || lower.includes("chay mau") || lower.includes("viêm nướu") || lower.includes("viêm quanh răng") || lower.includes("nha chu") || lower.includes("cao răng")) {
+          return MID_KNOWLEDGE_TOPICS.chayMauChanRang;
+        }
+        if (lower.includes("nứt") || lower.includes("nut") || lower.includes("đau nhói") || lower.includes("khi nhai") || lower.includes("sâu chân răng")) {
+          return MID_KNOWLEDGE_TOPICS.rangNutNgam;
+        }
+        if (lower.includes("cao tuổi") || lower.includes("người già") || lower.includes("trẻ em") || lower.includes("bé") || lower.includes("răng sữa") || lower.includes("răng giả") || lower.includes("khô miệng")) {
+          return MID_KNOWLEDGE_TOPICS.chamSocCaoTuoiTreEm;
+        }
+        return null;
+      }
+
+      function renderRedFlagBox(answerBox, matchedFlags, sanitizedText, hasMasked) {
+        const safeFlags = matchedFlags.map((f) => escapeHtml(f)).join(", ");
+        const safeSanitized = escapeHtml(sanitizedText);
+
+        answerBox.className = "mid-answer-box mid-answer-box--redflag";
+        answerBox.innerHTML =
+          '<div class="mid-answer__header">' +
+            '<h4 class="mid-answer__title">CẢNH BÁO DẤU HIỆU NGUY HIỂM — CẦN ĐI KHÁM CẤP CỨU NGAY</h4>' +
+            '<span class="mid-answer__tag">Red Flag Y khoa</span>' +
+          '</div>' +
+          (hasMasked
+            ? '<div class="mid-answer__sanitized">Thông tin nhạy cảm đã được ẩn danh tự động: <strong>' + safeSanitized + '</strong></div>'
+            : "") +
+          '<div class="mid-answer__section">' +
+            '<h4>Phát hiện dấu hiệu cảnh báo: ' + safeFlags + '</h4>' +
+            '<p>Đây là các biểu hiện có nguy cơ nhiễm trùng lan tỏa hoặc cấp cứu vùng hàm mặt. <strong>Tuyệt đối không tự ý mua kháng sinh, thuốc giảm đau hay tự xử lý tại nhà</strong> vì có thể làm che lấp triệu chứng và chậm trễ điều trị an toàn.</p>' +
+          '</div>' +
+          '<div class="mid-answer__section">' +
+            '<h4>Khuyến cáo xử trí khẩn:</h4>' +
+            '<ul>' +
+              '<li>Đến ngay <strong>cơ sở Răng Hàm Mặt hoặc bệnh viện gần nhất</strong> có khả năng cấp cứu.</li>' +
+              '<li>Hoặc liên hệ trực tiếp <strong>Bác sĩ Trịnh Công Vương (0912 343 858)</strong> để được hướng dẫn kịp thời.</li>' +
+            '</ul>' +
+            '<a class="mid-emergency-cta" href="tel:+84912343858">☎ Gọi ngay BS Vương: 0912 343 858</a>' +
+          '</div>';
+      }
+
+      function renderTopicAnswer(answerBox, topic, options) {
+        const opts = options || {};
+        const safeTitle = escapeHtml(topic.title);
+        const safeTag = escapeHtml(topic.tag);
+        const safeOverview = escapeHtml(topic.overview);
+        const safeMechanism = topic.mechanism ? escapeHtml(topic.mechanism) : "";
+        const safeWhen = escapeHtml(topic.whenToVisit);
+        const safeCareItems = (topic.midCare || [])
+          .map((item) => "<li>" + escapeHtml(item) + "</li>")
+          .join("");
+
+        answerBox.className = opts.isPolicyNotice
+          ? "mid-answer-box mid-answer-box--warning"
+          : "mid-answer-box";
+
+        let html =
+          '<div class="mid-answer__header">' +
+            '<h4 class="mid-answer__title">' + safeTitle + '</h4>' +
+            '<span class="mid-answer__tag">' + safeTag + '</span>' +
+          '</div>';
+
+        if (opts.hasMasked) {
+          html +=
+            '<div class="mid-answer__sanitized">' +
+              'Hệ thống đã tự động ẩn danh số cá nhân trong câu hỏi của bạn: <strong>' + escapeHtml(opts.sanitizedText) + '</strong>' +
+            '</div>';
+        }
+
+        if (opts.isPolicyNotice) {
+          html +=
+            '<div class="mid-answer__section">' +
+              '<h4>Lưu ý giới hạn chuyên môn:</h4>' +
+              '<p>Hệ thống không thể kê đơn thuốc (kháng sinh, thuốc giảm đau) hoặc đưa ra chẩn đoán khẳng định qua mạng vì cần thăm khám lâm sàng trực tiếp, đánh giá bệnh nền và phim X-quang (nếu cần). Dưới đây là kiến thức giáo dục sức khỏe chuẩn MID để bạn tham khảo trong lúc chờ khám:</p>' +
+            '</div>';
+        }
+
+        html +=
+          '<div class="mid-answer__section">' +
+            '<h4>1. Nhận diện &amp; Bản chất vấn đề</h4>' +
+            '<p>' + safeOverview + '</p>' +
+            (safeMechanism ? '<p style="margin-top:0.35rem;">' + safeMechanism + '</p>' : "") +
+          '</div>' +
+          '<div class="mid-answer__section">' +
+            '<h4>2. Hướng chăm sóc &amp; xử trí bảo tồn chuẩn MID</h4>' +
+            '<ul>' + safeCareItems + '</ul>' +
+          '</div>' +
+          '<div class="mid-answer__section">' +
+            '<h4>3. Khi nào cần đến khám trực tiếp</h4>' +
+            '<p>' + safeWhen + '</p>' +
+          '</div>';
+
+        answerBox.innerHTML = html;
+      }
+
+      function renderGeneralMidAnswer(answerBox, sanitizedText, hasMasked, isPolicyNotice) {
+        const generalTopic = {
+          title: "Kiến thức Giáo dục Sức khỏe Răng miệng chuẩn MID",
+          tag: "Chế độ Thí điểm MID",
+          overview: "Triết lý Nha khoa Can thiệp Tối thiểu (MID) đặt trọng tâm vào phát hiện sớm, kiểm soát nguyên nhân gây bệnh và bảo tồn tối đa mô răng thật của người bệnh.",
+          mechanism: "Ba nhóm vấn đề thường gặp ở cộng đồng gồm: (1) Chớm sâu đốm trắng, mòn cổ răng, viêm quanh răng; (2) Răng nứt ngầm, sâu chân răng; (3) Chăm sóc răng miệng đặc thù cho người cao tuổi và trẻ em.",
+          midCare: [
+            "Duy trì chải răng 2 lần/ngày bằng bàn chải lông mềm và kem đánh răng có fluor phù hợp.",
+            "Làm sạch kẽ răng hàng ngày bằng chỉ nha khoa hoặc tăm nước; hạn chế ăn vặt đồ ngọt, nước có gas.",
+            "Khám răng định kỳ mỗi 6 tháng để phát hiện sớm các tổn thương âm thầm trước khi gây đau."
+          ],
+          whenToVisit: "Bạn có thể chọn 1 trong 4 câu hỏi gợi ý phía trên, đọc thêm các bài viết chuyên đề ở Thư viện kiến thức bên dưới, hoặc gọi BS Vương (0912 343 858) để được tư vấn đặt lịch khám."
+        };
+        renderTopicAnswer(answerBox, generalTopic, {
+          sanitizedText: sanitizedText,
+          hasMasked: hasMasked,
+          isPolicyNotice: isPolicyNotice
+        });
+      }
+
+      function renderApiAnswer(answerBox, data, sanitizedText, hasMasked) {
+        const title = data && data.title ? data.title : "Tư vấn Giáo dục Sức khỏe Răng miệng chuẩn MID";
+        const tag = data && data.tag ? data.tag : "Kết nối Dental AI";
+        const answerText = data && (data.answer || data.reply || data.content || data.message)
+          ? (data.answer || data.reply || data.content || data.message)
+          : "Đã nhận phản hồi từ hệ thống.";
+
+        answerBox.className = "mid-answer-box";
+        answerBox.innerHTML =
+          '<div class="mid-answer__header">' +
+            '<h4 class="mid-answer__title">' + escapeHtml(title) + '</h4>' +
+            '<span class="mid-answer__tag">' + escapeHtml(tag) + '</span>' +
+          '</div>' +
+          (hasMasked
+            ? '<div class="mid-answer__sanitized">Thông tin nhạy cảm đã được ẩn danh tự động: <strong>' + escapeHtml(sanitizedText) + '</strong></div>'
+            : "") +
+          '<div class="mid-answer__section">' +
+            '<p style="white-space:pre-line;">' + escapeHtml(answerText) + '</p>' +
+          '</div>';
+      }
+
+      async function handleMidConsult() {
+        const inputEl = document.getElementById("midQuestionInput");
+        const answerBox = document.getElementById("midAnswerBox");
+        if (!inputEl || !answerBox) return;
+
+        const rawQuestion = inputEl.value.trim().slice(0, MAX_CHARS);
+        if (!rawQuestion) {
+          answerBox.className = "mid-answer-box mid-answer-box--warning";
+          answerBox.innerHTML =
+            '<div class="mid-answer__header">' +
+              '<h4 class="mid-answer__title">Vui lòng nhập câu hỏi</h4>' +
+              '<span class="mid-answer__tag">Nhắc nhở</span>' +
+            '</div>' +
+            '<div class="mid-answer__section">' +
+              '<p>Bạn hãy nhập băn khoăn răng miệng của mình hoặc bấm chọn nhanh một trong 4 nút câu hỏi gợi ý phía trên.</p>' +
+            '</div>';
+          inputEl.focus();
+          return;
+        }
+
+        // 1. Lớp lọc ẩn danh PII ngay trên trình duyệt
+        const { maskedText, hasMasked } = sanitizePii(rawQuestion);
+        if (hasMasked) {
+          inputEl.value = maskedText;
+          updateCharCount();
+        }
+
+        // 2. Lớp kiểm tra dấu hiệu nguy hiểm (Red Flags)
+        const matchedFlags = detectRedFlags(maskedText);
+        if (matchedFlags.length > 0) {
+          renderRedFlagBox(answerBox, matchedFlags, maskedText, hasMasked);
+          return;
+        }
+
+        // 3. Kiểm tra yêu cầu kê đơn / ép chẩn đoán khẳng định
+        const isPolicyNotice = isRequestingPrescriptionOrDiagnosis(maskedText);
+        const matchedTopic = matchMidTopic(maskedText);
+
+        // Nếu chưa cấu hình URL Cloud Run -> chạy chế độ Thí điểm tri thức MID tích hợp sẵn
+        if (!DENTAL_AI7_API_URL || !DENTAL_AI7_API_URL.trim()) {
+          if (matchedTopic) {
+            renderTopicAnswer(answerBox, matchedTopic, {
+              sanitizedText: maskedText,
+              hasMasked: hasMasked,
+              isPolicyNotice: isPolicyNotice
+            });
+          } else {
+            renderGeneralMidAnswer(answerBox, maskedText, hasMasked, isPolicyNotice);
+          }
+          return;
+        }
+
+        // Nếu đã cấu hình DENTAL_AI7_API_URL -> gọi POST /api/v1/dental-consult
+        const endpoint = DENTAL_AI7_API_URL.trim().replace(/\/+$/, "") + "/api/v1/dental-consult";
+        answerBox.className = "mid-answer-box";
+        answerBox.innerHTML =
+          '<div class="mid-answer__header">' +
+            '<h4 class="mid-answer__title">Đang tổng hợp kiến thức chuẩn MID...</h4>' +
+            '<span class="mid-answer__tag">Đang xử lý</span>' +
+          '</div>' +
+          '<div class="mid-answer__section"><p>Vui lòng đợi trong giây lát.</p></div>';
+
+        try {
+          const response = await fetch(endpoint, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "X-User-Role": "PATIENT_PUBLIC"
+            },
+            body: JSON.stringify({
+              question: maskedText,
+              policy_notice: isPolicyNotice
+            })
+          });
+
+          if (!response.ok) {
+            throw new Error("HTTP " + response.status);
+          }
+
+          const data = await response.json();
+          renderApiAnswer(answerBox, data, maskedText, hasMasked);
+        } catch (_err) {
+          // Dự phòng an toàn: vẫn trả về kiến thức MID chuẩn nếu kết nối Cloud Run gián đoạn
+          if (matchedTopic) {
+            renderTopicAnswer(answerBox, matchedTopic, {
+              sanitizedText: maskedText,
+              hasMasked: hasMasked,
+              isPolicyNotice: isPolicyNotice
+            });
+          } else {
+            renderGeneralMidAnswer(answerBox, maskedText, hasMasked, isPolicyNotice);
+          }
+        }
+      }
+
+      function updateCharCount() {
+        const inputEl = document.getElementById("midQuestionInput");
+        const countEl = document.getElementById("midCharCount");
+        if (!inputEl || !countEl) return;
+        const len = inputEl.value.length;
+        countEl.textContent = len + " / " + MAX_CHARS + " ký tự";
+      }
+
+      function initMidAssistant() {
+        const inputEl = document.getElementById("midQuestionInput");
+        const submitBtn = document.getElementById("midSubmitBtn");
+        const clearBtn = document.getElementById("midClearBtn");
+        const answerBox = document.getElementById("midAnswerBox");
+        const quickBtns = document.querySelectorAll("[data-mid-question]");
+
+        if (!inputEl || !submitBtn || !clearBtn || !answerBox) return;
+
+        inputEl.addEventListener("input", updateCharCount);
+        submitBtn.addEventListener("click", handleMidConsult);
+
+        clearBtn.addEventListener("click", () => {
+          inputEl.value = "";
+          updateCharCount();
+          answerBox.className = "mid-answer-box";
+          answerBox.innerHTML =
+            '<div class="mid-answer__header">' +
+              '<h4 class="mid-answer__title">Hướng dẫn kiến thức chuẩn MID</h4>' +
+              '<span class="mid-answer__tag">Sẵn sàng hỗ trợ</span>' +
+            '</div>' +
+            '<div class="mid-answer__section">' +
+              '<p>Nội dung đã được xóa. Hãy chọn một câu hỏi gợi ý ở trên hoặc nhập băn khoăn mới của bạn rồi bấm <strong>“Nhận tư vấn kiến thức MID”</strong>.</p>' +
+            '</div>';
+          inputEl.focus();
+        });
+
+        quickBtns.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const q = btn.getAttribute("data-mid-question") || "";
+            inputEl.value = q;
+            updateCharCount();
+            handleMidConsult();
+          });
+        });
+
+        updateCharCount();
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initMidAssistant);
+      } else {
+        initMidAssistant();
+      }
+    })();
+  </script>
 </body>
 </html>
