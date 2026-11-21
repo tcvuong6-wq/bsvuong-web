@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tcvuong6-wq.github.io/bsvuong-web/sitemap.xml
