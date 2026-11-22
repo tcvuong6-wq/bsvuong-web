@@ -25,6 +25,7 @@
    - Xuất báo cáo tóm tắt ngắn gọn trình Bác Vương duyệt.
 
 ## 4. Kênh Facebook chính thức (Tự động đăng bài sau khi duyệt & xuất bản)
+- **Khung giờ đăng bài cố định hàng ngày:** Từ **8:00 – 9:00 sáng** hàng ngày (theo yêu cầu của Bác Vương ngày 22/11/2026).
 - Khi Bác Vương yêu cầu đăng bài lên các trang Facebook (hoặc sau khi hoàn tất xuất bản bài mới nếu có chỉ định đăng Facebook), tự động sử dụng các đường dẫn đã lưu dưới đây mà không cần hỏi lại:
   1. Bảng điều khiển chuyên nghiệp / Trang chính: `https://www.facebook.com/professional_dashboard`
   2. Trang Facebook 1: `https://www.facebook.com/profile.php?id=61584067525360`
