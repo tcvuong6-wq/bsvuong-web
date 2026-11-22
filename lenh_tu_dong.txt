@@ -1,0 +1,49 @@
+QUY TRÌNH TỰ ĐỘNG XUẤT BẢN BÀI VIẾT NHA KHOA CHUẨN MID (TỪ ĐẦU ĐẾN HOÀN CHỈNH)
+
+QUY TẮC NHẬN LỆNH ĐẦU VÀO:
+- Lấy "Tên chủ đề bài viết" và "Tên tệp ảnh minh họa" trực tiếp từ yêu cầu người dùng vừa nhập trong khung trò chuyện hiện tại.
+- Đọc kỹ tệp D:\bsvuong-web\huong_dan_agent.md và tự động thực hiện liên tục toàn bộ 5 giai đoạn dưới đây, tuyệt đối không dừng lại giữa chừng để hỏi xác nhận:
+
+GIAI ĐOẠN 1 — NGHIÊN CỨU ĐỐI CHIẾU Y KHOA (01_nghien-cuu-doi-chieu.md):
+- Biên soạn và lưu nội dung nghiên cứu đối chiếu mới nhất vào tệp D:\bsvuong-web\01_nghien-cuu-doi-chieu.md cho chủ đề được yêu cầu.
+- Áp dụng nhất quán triết lý Nha khoa can thiệp tối thiểu (MID) & tôn trọng sinh học của BS Trịnh Công Vương (40 năm kinh nghiệm).
+- Trình bày rõ bảng đối chiếu: "Quan niệm / Điều trị xâm lấn cũ" vs "Tiếp cận bảo tồn sinh học MID". Tuyệt đối không bịa đặt số liệu thống kê hay trích dẫn tài liệu không có thật.
+
+GIAI ĐOẠN 2 — BIÊN TẬP NỘI DUNG CHUẨN GIỌNG VĂN BÁC VƯƠNG (tac_nhan_bien_tap):
+- Biên tập bài viết đầy đủ dành cho độc giả tuổi trung niên (35–58 tuổi) với giọng văn điềm đạm, ấm áp, chân thành, bình dân dễ hiểu.
+- Cấu trúc 3 phần mạch lạc:
+  (1) Tình huống thực tế tại phòng khám & những hiểu lầm thường gặp khiến người bệnh mất răng oan hoặc chần chừ đi khám;
+  (2) Giải thích cơ chế sinh học bằng ngôn ngữ đời thường;
+  (3) Dấu hiệu cảnh báo sớm tại nhà và 3 nguyên tắc chăm sóc bảo tồn răng thật hằng ngày.
+
+GIAI ĐOẠN 3 — TÍCH HỢP GIAO DIỆN WEB & HÌNH ẢNH AN TOÀN (tac_nhan_ky_thuat_web):
+- Tạo bản sao lưu tệp D:\bsvuong-web\index.html hiện tại thành index.html.bak_YYYYMMDD_slug_bai_viet (thay YYYYMMDD bằng ngày hiện tại).
+- Xử lý hình ảnh minh họa (chống lỗi đường dẫn trên Linux/GitHub Pages):
+  + Kiểm tra trong thư mục D:\bsvuong-web\ xem có tệp ảnh người dùng chỉ định hay không.
+  + Nếu có, lấy CHÍNH XÁC tên tệp và phần mở rộng (.jpg hoặc .png, giữ nguyên chữ hoa/thường) đang nằm trên ổ đĩa.
+  + Nếu người dùng không nêu tên ảnh hoặc tệp không tồn tại, tự động sử dụng ảnh triet-ly-mid.jpg có sẵn trong D:\bsvuong-web\.
+- Chèn khung ảnh minh họa ngay sau đoạn mở đầu dẫn dắt của bài viết theo đúng mẫu:
+  <figure class="my-6">
+    <img src="[TEN_TEP_ANH_CHINH_XAC]" alt="[Mô tả ngắn gọn nội dung ảnh]" class="w-full rounded-xl shadow-md object-cover">
+    <figcaption class="text-sm italic text-slate-600 text-center mt-2">[Chú thích ảnh gần gũi gắn với Phòng khám Nha khoa Gia đình - BS Trịnh Công Vương]</figcaption>
+  </figure>
+- Tạo mã định danh (slug) tiếng Việt không dấu nối bằng dấu gạch ngang (ví dụ: mon-co-rang-hinh-chem). Nếu mã này đã tồn tại trong ARTICLE_DATA thì cập nhật đè lên mục cũ chứ không tạo trùng lặp.
+- Đưa thẻ bài viết mới lên vị trí đầu tiên trong khu vực Thư viện kiến thức (#articles) và thêm dữ liệu vào đối tượng ARTICLE_DATA trong index.html, đảm bảo thoát ký tự (escape) an toàn cho mọi dấu nháy và dấu huyền để không gây lỗi cú pháp JavaScript.
+
+GIAI ĐOẠN 4 — KIỂM DUYỆT KỸ THUẬT & ĐẨY LÊN GITHUB (tac_nhan_kiem_duyet):
+- Kiểm tra chéo 4 yếu tố bắt buộc trước khi xuất bản:
+  (1) Thuật ngữ y khoa chuẩn mực bảo tồn sinh học, không hù dọa, không quảng cáo phô trương;
+  (2) Chính tả tiếng Việt chuẩn xác;
+  (3) Cú pháp HTML và đối tượng JavaScript ARTICLE_DATA trong index.html hợp lệ 100%, không lỗi dấu ngoặc;
+  (4) Tệp ảnh khai báo trong thẻ <img> tồn tại thực tế trong D:\bsvuong-web\.
+- Lưu biên bản kiểm duyệt tại D:\bsvuong-web\03_bao_cao_kiem_duyet_[slug_bai_viet].md.
+- Đồng bộ Git an toàn:
+  + Chạy git pull --rebase origin main để tránh xung đột phiên bản.
+  + Chỉ đưa các tệp cần thiết vào danh sách đẩy (tuyệt đối KHÔNG dùng git add . và KHÔNG đẩy các tệp .bak_): chạy lệnh git add index.html 01_nghien-cuu-doi-chieu.md 03_bao_cao_kiem_duyet_[slug_bai_viet].md [TEN_TEP_ANH_NEU_MOI].
+  + Chạy git commit -m "Xuat ban bai viet: [Ten chu de]" và git push origin main.
+
+GIAI ĐOẠN 5 — XUẤT BẢN ĐĂNG MẠNG XÃ HỘI CHO BÁC VƯƠNG:
+- Sau khi git push thành công, hiển thị ngay kết quả trên màn hình gồm 3 mục:
+  1. Đường dẫn kiểm tra trực tiếp: https://tcvuong6-wq.github.io/bsvuong-web/
+  2. Bản rút gọn đăng Fanpage Facebook (350–450 chữ, giọng ấm áp, chia 3 phần rõ ràng, kèm liên kết https://tcvuong6-wq.github.io/bsvuong-web/ và chữ ký: BS Trịnh Công Vương - Phòng khám Nha khoa Gia đình (Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, Thái Nguyên | ĐT: 0912 343 858)).
+  3. Bản ngắn gọn đăng Zalo (180–220 chữ, tập trung vào 3 gạch đầu dòng thực hành hằng ngày kèm liên kết trang web và chữ ký trên).
