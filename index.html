@@ -906,7 +906,7 @@
           <details class="faq-item">
             <summary>Tôi có thể đặt lịch trực tuyến ngay trên trang này không?</summary>
             <div class="faq-item__body">
-              <p>Bạn có thể điền biểu mẫu gửi yêu cầu lịch hẹn ở phần Liên hệ bên dưới, hoặc gọi điện/nhắn Zalo trực tiếp tới số 0912 343 858. Lịch hẹn chính thức sẽ được phòng khám xác nhận trực tiếp với bạn.</p>
+              <p>Bạn có thể chọn nhanh nhu cầu ở phần Liên hệ bên dưới để chuyển thẳng sang Zalo của Bác sĩ Vương, hoặc gọi điện/nhắn Zalo trực tiếp tới số 0912 343 858 (website không thu thập thông tin cá nhân trực tuyến). Lịch hẹn chính thức sẽ được phòng khám xác nhận trực tiếp với bạn.</p>
             </div>
           </details>
 
@@ -984,27 +984,11 @@
           </div>
 
           <div class="booking-card reveal">
-            <h3>Gửi yêu cầu đặt lịch hẹn</h3>
+            <h3>Đặt lịch hẹn trực tiếp qua Zalo Bác sĩ Vương</h3>
             <p style="margin:6px 0 18px;color:var(--muted);font-size:0.92rem">
-              Điền thông tin liên hệ cơ bản để chuẩn bị nội dung hẹn khám nhanh chóng (không cần nhập chi tiết bệnh lý).
+              Để bảo mật tuyệt đối thông tin người bệnh, website <strong>không thu thập Họ tên, Số điện thoại hay thông tin bệnh lý</strong>. Bạn có thể chọn nhanh nhu cầu bên dưới rồi chuyển thẳng sang Zalo riêng của Bác sĩ để trao đổi trực tiếp.
             </p>
             <form class="booking-form" id="bookingForm" novalidate>
-              <div class="hp-field" aria-hidden="true">
-                <label for="hpWebsite">Website</label>
-                <input id="hpWebsite" name="website" type="text" tabindex="-1" autocomplete="off">
-              </div>
-
-              <div class="form-row">
-                <div class="field">
-                  <label for="bkName">Họ và tên *</label>
-                  <input id="bkName" name="name" type="text" required placeholder="Ví dụ: Nguyễn Văn A" autocomplete="name">
-                </div>
-                <div class="field">
-                  <label for="bkPhone">Số điện thoại *</label>
-                  <input id="bkPhone" name="phone" type="tel" required placeholder="Ví dụ: 0912343858" autocomplete="tel" inputmode="tel">
-                </div>
-              </div>
-
               <div class="form-row">
                 <div class="field">
                   <label for="bkService">Nhu cầu quan tâm (tùy chọn)</label>
@@ -1017,17 +1001,15 @@
                   </select>
                 </div>
                 <div class="field">
-                  <label for="bkTime">Thời gian mong muốn (tùy chọn)</label>
-                  <input id="bkTime" name="time" type="text" placeholder="Ví dụ: Sáng thứ 7, khoảng 9h">
+                  <label for="bkTime">Thời gian dự kiến (tùy chọn)</label>
+                  <input id="bkTime" name="time" type="text" maxlength="80" placeholder="Ví dụ: Sáng thứ 7, khoảng 9h">
                 </div>
               </div>
 
-              <div class="field">
-                <label for="bkNote">Ghi chú ngắn (tùy chọn)</label>
-                <textarea id="bkNote" name="note" rows="2" maxlength="200" placeholder="Ví dụ: Muốn hỏi lịch khám cho người lớn tuổi (không nhập thông tin bệnh án nhạy cảm)"></textarea>
+              <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:4px">
+                <button class="btn btn--primary" type="submit">💬 Chuyển sang Zalo BS Vương (0912 343 858)</button>
+                <a class="btn btn--secondary" href="tel:+84912343858">☎ Gọi trực tiếp</a>
               </div>
-
-              <button class="btn btn--primary" type="submit">Chuẩn bị yêu cầu đặt lịch</button>
               <div class="form-feedback" id="formFeedback" role="status" aria-live="polite"></div>
             </form>
           </div>

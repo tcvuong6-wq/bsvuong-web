@@ -394,46 +394,21 @@
   window.addEventListener('hashchange', handleHashRoute);
   handleHashRoute();
 
-  // 5. Appointment Request Form (no sensitive medical info, no false confirmation)
+  // 5. Direct Zalo Appointment Handoff (zero PII collected on website)
   const bookingForm = document.getElementById('bookingForm');
   const formFeedback = document.getElementById('formFeedback');
-  const formLoadedAt = Date.now();
 
   if (bookingForm && formFeedback) {
     bookingForm.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const hp = (bookingForm.querySelector('[name="website"]') || {}).value || '';
-      if (hp.trim() !== '' || Date.now() - formLoadedAt < 1500) {
-        return;
-      }
 
-      const name = (bookingForm.querySelector('#bkName').value || '').trim();
-      const phone = (bookingForm.querySelector('#bkPhone').value || '').replace(/\s+/g, '');
-      const service = bookingForm.querySelector('#bkService').value || 'Khám & tư vấn tổng quát';
-      const timeSlot = (bookingForm.querySelector('#bkTime').value || '').trim();
-      const note = (bookingForm.querySelector('#bkNote').value || '').trim();
-
-      const phoneValid = /^(0|\+?84)[35789]\d{8}$/.test(phone);
-      if (name.length < 2) {
-        formFeedback.className = 'form-feedback is-error';
-        formFeedback.textContent = 'Vui lòng nhập họ tên (ít nhất 2 ký tự).';
-        bookingForm.querySelector('#bkName').focus();
-        return;
-      }
-      if (!phoneValid) {
-        formFeedback.className = 'form-feedback is-error';
-        formFeedback.textContent = 'Vui lòng nhập số điện thoại di động hợp lệ tại Việt Nam (ví dụ: 0912343858).';
-        bookingForm.querySelector('#bkPhone').focus();
-        return;
-      }
+      const service = (bookingForm.querySelector('#bkService')?.value || 'Khám & tư vấn tổng quát').trim();
+      const timeSlot = (bookingForm.querySelector('#bkTime')?.value || '').trim();
 
       const summary = [
-        'YEU CAU DAT LICH HEN - NHA KHOA BS VUONG',
-        `- Ho ten: ${name}`,
-        `- So dien thoai: ${phone}`,
-        `- Nhu cau quan tam: ${service}`,
-        timeSlot ? `- Thoi gian mong muon: ${timeSlot}` : null,
-        note ? `- Ghi chu: ${note}` : null
+        'Xin chào Bác sĩ Vương, tôi muốn đặt lịch hẹn khám:',
+        `- Nhu cầu quan tâm: ${service}`,
+        timeSlot ? `- Thời gian dự kiến: ${timeSlot}` : null
       ]
         .filter(Boolean)
         .join('\n');
@@ -448,12 +423,12 @@
         }
       }
 
+      window.open('https://zalo.me/0912343858', '_blank', 'noopener,noreferrer');
+
       formFeedback.className = 'form-feedback is-success';
       formFeedback.innerHTML =
-        `<strong>Thông tin yêu cầu đã sẵn sàng${copied ? ' (đã sao chép nội dung)' : ''}.</strong> ` +
-        `Lịch hẹn chỉ được xác nhận sau khi phòng khám trao đổi trực tiếp. ` +
-        `Vui lòng <a href="https://zalo.me/0912343858" target="_blank" rel="noopener noreferrer"><strong>gửi qua Zalo 0912 343 858</strong></a> ` +
-        `hoặc <a href="tel:+84912343858"><strong>gọi trực tiếp</strong></a> để bác sĩ sắp xếp thời gian đón tiếp.`;
+        `<strong>Đang chuyển sang Zalo Bác sĩ Vương (0912 343 858)${copied ? ' — đã sao chép sẵn mẫu tin nhắn' : ''}.</strong> ` +
+        `Nếu cửa sổ Zalo chưa tự mở, vui lòng bấm trực tiếp vào <a href="https://zalo.me/0912343858" target="_blank" rel="noopener noreferrer"><strong>liên kết Zalo này</strong></a> để nhắn tin trao đổi bảo mật với bác sĩ.`;
     });
   }
 })();
