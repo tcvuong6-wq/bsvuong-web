@@ -393,42 +393,4 @@
   }
   window.addEventListener('hashchange', handleHashRoute);
   handleHashRoute();
-
-  // 5. Direct Zalo Appointment Handoff (zero PII collected on website)
-  const bookingForm = document.getElementById('bookingForm');
-  const formFeedback = document.getElementById('formFeedback');
-
-  if (bookingForm && formFeedback) {
-    bookingForm.addEventListener('submit', async (e) => {
-      e.preventDefault();
-
-      const service = (bookingForm.querySelector('#bkService')?.value || 'Khám & tư vấn tổng quát').trim();
-      const timeSlot = (bookingForm.querySelector('#bkTime')?.value || '').trim();
-
-      const summary = [
-        'Xin chào Bác sĩ Vương, tôi muốn đặt lịch hẹn khám:',
-        `- Nhu cầu quan tâm: ${service}`,
-        timeSlot ? `- Thời gian dự kiến: ${timeSlot}` : null
-      ]
-        .filter(Boolean)
-        .join('\n');
-
-      let copied = false;
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        try {
-          await navigator.clipboard.writeText(summary);
-          copied = true;
-        } catch (_) {
-          copied = false;
-        }
-      }
-
-      window.open('https://zalo.me/0912343858', '_blank', 'noopener,noreferrer');
-
-      formFeedback.className = 'form-feedback is-success';
-      formFeedback.innerHTML =
-        `<strong>Đang chuyển sang Zalo Bác sĩ Vương (0912 343 858)${copied ? ' — đã sao chép sẵn mẫu tin nhắn' : ''}.</strong> ` +
-        `Nếu cửa sổ Zalo chưa tự mở, vui lòng bấm trực tiếp vào <a href="https://zalo.me/0912343858" target="_blank" rel="noopener noreferrer"><strong>liên kết Zalo này</strong></a> để nhắn tin trao đổi bảo mật với bác sĩ.`;
-    });
-  }
 })();

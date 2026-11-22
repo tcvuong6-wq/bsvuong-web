@@ -799,7 +799,7 @@ button, input, select, textarea {
 /* 9. Contact & Appointment */
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1.05fr;
+  grid-template-columns: 1fr;
   gap: 28px;
   align-items: start;
 }
