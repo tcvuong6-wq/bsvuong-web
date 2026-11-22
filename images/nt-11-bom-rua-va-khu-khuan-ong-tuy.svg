@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#072731"/>
+      <stop offset="100%" stop-color="#0d4a58"/>
+    </linearGradient>
+    <linearGradient id="tooth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7fbfc"/>
+      <stop offset="100%" stop-color="#d7eaed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="60" y="72" fill="#e6f7f5" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">NT-11: BƠM RỬA &amp; KHỬ KHUẨN HỆ THỐNG ỐNG TỦY</text>
+  <text x="60" y="108" fill="#8fd3cc" font-family="Segoe UI, Arial, sans-serif" font-size="20">NaOCl + EDTA · Hoạt hóa siêu âm phá màng sinh học · Kim thoát bên an toàn</text>
+
+  <!-- Root Canal with Side-Vented Needle + Swirling Fluid -->
+  <g transform="translate(150,145)">
+    <path d="M120,10 C190,10 230,60 220,150 L185,430 C178,480 155,500 120,500 C85,500 62,480 55,430 L20,150 C10,60 50,10 120,10 Z" fill="url(#tooth)" stroke="#7cc6c0" stroke-width="4"/>
+    <!-- Canal Space -->
+    <path d="M88,45 L152,45 L136,445 C132,465 108,465 104,445 Z" fill="#0d4a58"/>
+    <!-- Lateral Canals -->
+    <path d="M100,320 L55,340 M140,355 L185,375 M105,400 L65,420" stroke="#2ec4b6" stroke-width="5" stroke-linecap="round"/>
+    <!-- Side-Vented Irrigation Needle -->
+    <rect x="115" y="-10" width="10" height="360" rx="4" fill="#d9e7e5"/>
+    <path d="M115,350 Q120,362 125,350 Z" fill="#b0c8c6"/>
+    <!-- Side vent exit -->
+    <rect x="122" y="325" width="5" height="14" fill="#072731"/>
+    <!-- Swirling Vortex Waves -->
+    <path d="M128,332 Q148,325 142,300 Q120,285 98,305 Q92,328 110,342" fill="none" stroke="#64dfdf" stroke-width="4" stroke-linecap="round"/>
+    <path d="M125,365 Q142,380 120,395 Q98,385 105,365" fill="none" stroke="#ffd166" stroke-width="3.5" stroke-dasharray="6 4"/>
+    <!-- Safe Distance Marker -->
+    <line x1="75" y1="355" x2="165" y2="355" stroke="#ffd166" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="75" y1="455" x2="165" y2="455" stroke="#ff7b72" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="235" y="405" fill="#ffd166" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Cách chóp 2–3 mm</text>
+  </g>
+
+  <!-- Right Info Cards -->
+  <g transform="translate(520,165)">
+    <rect width="610" height="125" rx="18" fill="#0d3f4d" stroke="#22a69f" stroke-width="2"/>
+    <text x="30" y="46" fill="#64dfdf" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">1. NaOCl (1.5% – 5.25%): Diệt khuẩn &amp; Hòa tan mô</text>
+    <text x="30" y="80" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">Phá hủy màng sinh học vi khuẩn (biofilm) và hòa tan mô</text>
+    <text x="30" y="104" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">tủy hoại tử ở các eo thắt, ống tủy phụ nơi trâm không tới.</text>
+  </g>
+
+  <g transform="translate(520,315)">
+    <rect width="610" height="125" rx="18" fill="#0d3f4d" stroke="#22a69f" stroke-width="2"/>
+    <text x="30" y="46" fill="#ffd166" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">2. EDTA 17% &amp; Hoạt hóa siêu âm (PUI)</text>
+    <text x="30" y="80" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">Hòa tan lớp mùn ngà vô cơ, mở thông ống ngà. Hoạt hóa</text>
+    <text x="30" y="104" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">siêu âm tạo dòng xoáy phá bọt khí khóa hơi vùng chóp.</text>
+  </g>
+
+  <g transform="translate(520,465)">
+    <rect width="610" height="125" rx="18" fill="#0d3f4d" stroke="#ff7b72" stroke-width="2"/>
+    <text x="30" y="46" fill="#ff9e96" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">3. Phòng ngừa tai biến tràn NaOCl qua chóp</text>
+    <text x="30" y="80" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">Dùng kim đầu tù thoát bên, không kẹt thành, đặt ngắn hơn</text>
+    <text x="30" y="104" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">chiều dài làm việc 2–3 mm và bơm chậm áp lực nhẹ.</text>
+  </g>
+
+  <text x="60" y="642" fill="#8fd3cc" font-family="Segoe UI, Arial, sans-serif" font-size="16">Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương · Triết lý Nha khoa can thiệp tối thiểu (MID)</text>
+</svg>

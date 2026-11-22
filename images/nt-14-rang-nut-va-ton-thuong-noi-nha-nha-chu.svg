@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#072731"/>
+      <stop offset="100%" stop-color="#0d4a58"/>
+    </linearGradient>
+    <linearGradient id="tooth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7fbfc"/>
+      <stop offset="100%" stop-color="#d7eaed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="60" y="72" fill="#e6f7f5" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">NT-14: RĂNG NỨT &amp; TỔN THƯƠNG NỘI NHA – NHA CHU</text>
+  <text x="60" y="108" fill="#8fd3cc" font-family="Segoe UI, Arial, sans-serif" font-size="20">Phân biệt Răng nứt bảo tồn được vs. Nứt dọc chân răng · Đánh giá nguồn gốc Nội nha – Nha chu</text>
+
+  <!-- Left: Cracked Tooth (Preservable) -->
+  <g transform="translate(90,155)">
+    <rect width="480" height="430" rx="22" fill="#0b3643" stroke="#ffd166" stroke-width="2.5"/>
+    <text x="240" y="42" text-anchor="middle" fill="#ffd166" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">RĂNG NỨT THÂN (BẢO TỒN ĐƯỢC)</text>
+    <g transform="translate(135,70)">
+      <path d="M105,10 C165,10 195,55 188,125 L162,275 C158,295 142,300 132,275 L112,185 L92,275 C82,300 66,295 62,275 L36,125 C29,55 59,10 105,10 Z" fill="url(#tooth)"/>
+      <!-- Vital pulp -->
+      <path d="M85,95 L125,95 L138,260 L128,260 L110,165 L92,260 L82,260 Z" fill="#ff758f"/>
+      <!-- Crown Crack Line -->
+      <path d="M105,12 L100,58 L112,92 L106,125" stroke="#e63946" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <!-- Overlay protection -->
+      <path d="M40,22 Q105,0 170,22 L175,45 Q105,28 35,45 Z" fill="#06d6a0" opacity="0.85"/>
+    </g>
+    <text x="240" y="380" text-anchor="middle" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="17">Đau nhói khi nhả lực cắn · Khóa múi bằng Onlay/Overlay</text>
+    <text x="240" y="405" text-anchor="middle" fill="#a7f3d0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">→ Bảo tồn răng thật &amp; tủy sống tốt</text>
+  </g>
+
+  <!-- Right: Vertical Root Fracture + J-shaped defect -->
+  <g transform="translate(630,155)">
+    <rect width="480" height="430" rx="22" fill="#0b3643" stroke="#ff7b72" stroke-width="2.5"/>
+    <text x="240" y="42" text-anchor="middle" fill="#ff9e96" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">NỨT DỌC CHÂN RĂNG &amp; TÚI SÂU HẸP</text>
+    <g transform="translate(135,70)">
+      <path d="M105,10 C165,10 195,55 188,125 L162,275 C158,295 142,300 132,275 L112,185 L92,275 C82,300 66,295 62,275 L36,125 C29,55 59,10 105,10 Z" fill="url(#tooth)"/>
+      <!-- J-shaped bone defect -->
+      <path d="M170,120 L185,120 L175,290 C165,320 120,315 115,285" stroke="#e63946" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.55"/>
+      <!-- Vertical Root Crack -->
+      <path d="M135,95 L142,165 L148,225 L155,280" stroke="#d90429" stroke-width="5" fill="none" stroke-linecap="round"/>
+    </g>
+    <text x="240" y="380" text-anchor="middle" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="17">Túi nha chu sâu đơn độc · Tiêu xương hình chữ "J"</text>
+    <text x="240" y="405" text-anchor="middle" fill="#ffb3b8" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">→ Tiên lượng kém, cần đánh giá nhổ sớm giữ xương</text>
+  </g>
+
+  <text x="60" y="642" fill="#8fd3cc" font-family="Segoe UI, Arial, sans-serif" font-size="16">Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương · Triết lý Nha khoa can thiệp tối thiểu (MID)</text>
+</svg>

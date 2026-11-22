@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#072731"/>
+      <stop offset="100%" stop-color="#0d4a58"/>
+    </linearGradient>
+    <linearGradient id="tooth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7fbfc"/>
+      <stop offset="100%" stop-color="#d7eaed"/>
+    </linearGradient>
+    <linearGradient id="gp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8fa3"/>
+      <stop offset="100%" stop-color="#ff4d6d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="60" y="72" fill="#e6f7f5" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">NT-12: TRÁM BÍT HỆ THỐNG ỐNG TỦY 3 CHIỀU</text>
+  <text x="60" y="108" fill="#8fd3cc" font-family="Segoe UI, Arial, sans-serif" font-size="20">Gutta-percha + Sealer sinh học Bioceramic · Khóa kín hai đầu chóp và thân răng</text>
+
+  <!-- Tooth with 3D Obturation + Coronal Seal -->
+  <g transform="translate(150,145)">
+    <path d="M120,10 C190,10 230,60 220,150 L185,430 C178,480 155,500 120,500 C85,500 62,480 55,430 L20,150 C10,60 50,10 120,10 Z" fill="url(#tooth)" stroke="#7cc6c0" stroke-width="4"/>
+    <!-- Coronal Composite/Onlay Seal -->
+    <path d="M68,20 L172,20 L165,125 L75,125 Z" fill="#48cae4" stroke="#0a3542" stroke-width="3"/>
+    <!-- Orifice Barrier -->
+    <rect x="78" y="120" width="84" height="22" rx="4" fill="#ffd166"/>
+    <!-- Bioceramic Sealer Film + Lateral Canals -->
+    <path d="M88,142 L152,142 L134,452 C128,465 112,465 106,452 Z" fill="#06d6a0"/>
+    <path d="M102,320 L58,342 M138,360 L182,380 M108,415 L72,432" stroke="#06d6a0" stroke-width="6" stroke-linecap="round"/>
+    <!-- Gutta-percha Core -->
+    <path d="M95,142 L145,142 L127,448 L113,448 Z" fill="url(#gp)"/>
+  </g>
+
+  <!-- Right Info Cards -->
+  <g transform="translate(520,165)">
+    <rect width="610" height="125" rx="18" fill="#0d3f4d" stroke="#ff758f" stroke-width="2"/>
+    <text x="30" y="46" fill="#ff9ebb" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">1. Lõi Gutta-percha + Sealer gốm sinh học</text>
+    <text x="30" y="80" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">Sealer Bioceramic kết dính hóa học với ngà răng, lấp đầy</text>
+    <text x="30" y="104" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">ống tủy phụ và vùng chóp mà không gây áp lực nứt chân răng.</text>
+  </g>
+
+  <g transform="translate(520,315)">
+    <rect width="610" height="125" rx="18" fill="#0d3f4d" stroke="#22a69f" stroke-width="2"/>
+    <text x="30" y="46" fill="#64dfdf" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">2. Kỹ thuật trám bít linh hoạt theo giải phẫu</text>
+    <text x="30" y="80" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">Lèn dọc nóng (Warm Vertical) hoặc Một côn thủy lực</text>
+    <text x="30" y="104" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">(Single-cone Bioceramic) giúp tạo khối đặc chắc 3 chiều.</text>
+  </g>
+
+  <g transform="translate(520,465)">
+    <rect width="610" height="125" rx="18" fill="#0d3f4d" stroke="#ffd166" stroke-width="2"/>
+    <text x="30" y="46" fill="#ffd166" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">3. Khóa kín thân răng (Coronal Seal) kịp thời</text>
+    <text x="30" y="80" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">Đặt lớp khóa miệng ống tủy và phục hồi kín khít (Composite</text>
+    <text x="30" y="104" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">hoặc Onlay/Overlay) ngăn vi khuẩn nước bọt thấm ngược.</text>
+  </g>
+
+  <text x="60" y="642" fill="#8fd3cc" font-family="Segoe UI, Arial, sans-serif" font-size="16">Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương · Triết lý Nha khoa can thiệp tối thiểu (MID)</text>
+</svg>

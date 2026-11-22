@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#072731"/>
+      <stop offset="100%" stop-color="#0d4a58"/>
+    </linearGradient>
+    <linearGradient id="tooth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7fbfc"/>
+      <stop offset="100%" stop-color="#d7eaed"/>
+    </linearGradient>
+    <linearGradient id="niti" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#06d6a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="60" y="72" fill="#e6f7f5" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">NT-10: TẠO HÌNH HỆ THỐNG ỐNG TỦY (NiTi &amp; GLIDE PATH)</text>
+  <text x="60" y="108" fill="#8fd3cc" font-family="Segoe UI, Arial, sans-serif" font-size="20">Bảo tồn ngà quanh cổ răng (PCD) · Đường trượt trơn láng · Phòng ngừa gãy dụng cụ</text>
+
+  <!-- Left: Curved Root Cross Section -->
+  <g transform="translate(170,150)">
+    <path d="M110,10 C175,10 215,50 210,120 C205,180 185,230 195,310 C205,390 235,445 215,475 C195,500 165,455 150,395 C135,335 125,270 110,270 C95,270 85,335 70,395 C55,455 25,500 5,475 C-15,445 15,390 25,310 C35,230 15,180 10,120 C5,50 45,10 110,10 Z" fill="url(#tooth)" stroke="#7cc6c0" stroke-width="4"/>
+    <!-- Pericervical Dentin Highlight -->
+    <rect x="28" y="135" width="164" height="58" rx="10" fill="none" stroke="#ffd166" stroke-width="3" stroke-dasharray="8 6"/>
+    <!-- Curved Canal -->
+    <path d="M110,60 L110,130 C110,195 162,275 182,360 C192,405 198,440 202,458" fill="none" stroke="#087e79" stroke-width="20" stroke-linecap="round" opacity="0.28"/>
+    <path d="M110,60 L110,130 C110,195 162,275 182,360 C192,405 198,440 202,458" fill="none" stroke="#18b9b0" stroke-width="10" stroke-linecap="round"/>
+    <!-- Flexible NiTi File -->
+    <path d="M110,0 L110,130 C110,195 162,275 182,360 C192,405 198,440 202,456" fill="none" stroke="url(#niti)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="202" cy="456" r="7" fill="#ffd166"/>
+    <!-- Left Canal -->
+    <path d="M110,130 C105,195 60,280 42,365 C32,410 22,445 18,458" fill="none" stroke="#0a3542" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Right: 3 Key Clinical Cards -->
+  <g transform="translate(510,165)">
+    <rect width="620" height="125" rx="18" fill="#0d3f4d" stroke="#22a69f" stroke-width="2"/>
+    <circle cx="52" cy="62" r="26" fill="#087e79"/>
+    <text x="52" y="70" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">1</text>
+    <text x="98" y="48" fill="#ffd166" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Glide Path (Đường trượt trơn láng)</text>
+    <text x="98" y="82" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">Thăm dò bằng trâm tay #10–#15 trước khi đưa trâm máy NiTi,</text>
+    <text x="98" y="106" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">giảm khóa đầu trâm (taper lock) và quá tải xoắn.</text>
+  </g>
+
+  <g transform="translate(510,315)">
+    <rect width="620" height="125" rx="18" fill="#0d3f4d" stroke="#22a69f" stroke-width="2"/>
+    <circle cx="52" cy="62" r="26" fill="#087e79"/>
+    <text x="52" y="70" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">2</text>
+    <text x="98" y="48" fill="#64dfdf" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Hợp kim NiTi xử lý nhiệt (Gold / Blue)</text>
+    <text x="98" y="82" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">Siêu dẻo, ôm theo đường cong tự nhiên, hạn chế tạo khấc</text>
+    <text x="98" y="106" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">và bảo tồn vùng ngà quanh cổ răng (PCD).</text>
+  </g>
+
+  <g transform="translate(510,465)">
+    <rect width="620" height="125" rx="18" fill="#0d3f4d" stroke="#ff7b72" stroke-width="2"/>
+    <circle cx="52" cy="62" r="26" fill="#d94e4e"/>
+    <text x="52" y="70" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">3</text>
+    <text x="98" y="48" fill="#ff9e96" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Phòng ngừa gãy dụng cụ (Mỏi chu kỳ &amp; xoắn)</text>
+    <text x="98" y="82" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">Không ấn mạnh, bơm rửa NaOCl liên tục, kiểm soát torque</text>
+    <text x="98" y="106" fill="#d9f0ee" font-family="Segoe UI, Arial, sans-serif" font-size="18">và loại bỏ trâm ngay khi có dấu hiệu giãn xoắn.</text>
+  </g>
+
+  <text x="60" y="642" fill="#8fd3cc" font-family="Segoe UI, Arial, sans-serif" font-size="16">Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương · Triết lý Nha khoa can thiệp tối thiểu (MID)</text>
+</svg>
