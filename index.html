@@ -1108,15 +1108,19 @@
       const DENTAL_AI7_API_URL = "";
 
       const MAX_CHARS = 1000;
-      const RED_FLAGS = [
-        "sưng to mặt",
-        "sưng lan tỏa",
-        "khó thở",
-        "khó nuốt",
-        "khít hàm",
-        "sốt cao",
-        "chảy máu không cầm",
-        "chấn thương hàm"
+      const RED_FLAG_RULES = [
+        { label: "sưng dưới lưỡi thở không nổi", patterns: ["sung duoi luoi tho khong noi", "sung duoi luoi", "sung san mieng"] },
+        { label: "khó thở", patterns: ["kho tho", "tho khong noi", "ngat tho"] },
+        { label: "khó nuốt", patterns: ["kho nuot", "nuot khong duoc", "chay dai khong nuot duoc"] },
+        { label: "sốt cao", patterns: ["sot cao", "sot ret run"] },
+        { label: "khít hàm", patterns: ["khit ham", "khong ha duoc mieng", "kho ha mieng", "cung ham"] },
+        { label: "chảy máu không cầm", patterns: ["chay mau khong cam", "chay mau mai khong cam", "chay mau o at", "mau chay khong ngung"] },
+        { label: "tím tái toàn thân", patterns: ["tim tai toan than", "tim tai"] },
+        { label: "co giật toàn thân", patterns: ["co giat toan than", "co giat"] },
+        { label: "ngất xỉu", patterns: ["ngat xiu", "bat tinh", "ngat lim"] },
+        { label: "sưng to mặt", patterns: ["sung to mat"] },
+        { label: "sưng lan tỏa", patterns: ["sung lan toa", "sung lan xuong co"] },
+        { label: "chấn thương hàm", patterns: ["chan thuong ham"] }
       ];
 
       const PRESCRIPTION_OR_DIAGNOSIS_KEYWORDS = [
@@ -1241,9 +1245,25 @@
         return { maskedText: masked, hasMasked };
       }
 
+      function normalizeForMatch(text) {
+        return String(text || "")
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/đ/g, "d")
+          .replace(/\s+/g, " ")
+          .trim();
+      }
+
       function detectRedFlags(text) {
-        const lower = text.toLowerCase();
-        return RED_FLAGS.filter((flag) => lower.includes(flag));
+        const normalized = normalizeForMatch(text);
+        const matched = [];
+        for (const rule of RED_FLAG_RULES) {
+          if (rule.patterns.some((p) => normalized.includes(p))) {
+            matched.push(rule.label);
+          }
+        }
+        return matched;
       }
 
       function isRequestingPrescriptionOrDiagnosis(text) {
@@ -1291,8 +1311,8 @@
           '<div class="mid-answer__section">' +
             '<h4>Khuyến cáo xử trí khẩn:</h4>' +
             '<ul>' +
-              '<li>Đến ngay <strong>cơ sở Răng Hàm Mặt hoặc bệnh viện gần nhất</strong> có khả năng cấp cứu.</li>' +
-              '<li>Hoặc liên hệ trực tiếp <strong>Bác sĩ Trịnh Công Vương (0912 343 858)</strong> để được hướng dẫn kịp thời.</li>' +
+              '<li><strong>Gọi ngay cấp cứu 115</strong> hoặc đến ngay <strong>cơ sở Răng Hàm Mặt / bệnh viện gần nhất</strong> có khả năng cấp cứu (đặc biệt khi có khó thở, sưng dưới lưỡi, tím tái, co giật hoặc ngất xỉu).</li>' +
+              '<li>Hoặc liên hệ khẩn <strong>Bác sĩ Trịnh Công Vương (0912 343 858)</strong> để được hướng dẫn chuyển tuyến an toàn kịp thời.</li>' +
             '</ul>' +
             '<a class="mid-emergency-cta" href="tel:+84912343858">☎ Gọi ngay BS Vương: 0912 343 858</a>' +
           '</div>';
