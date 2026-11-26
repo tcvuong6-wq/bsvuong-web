@@ -15,9 +15,18 @@ const ARTICLE_ALIASES = {
 };
 
 const HIDDEN_ARTICLE_IDS = new Set([]);
-const FEATURED_ARTICLE_IDS = ["sau-rang-va-phuc-hoi-mid", "kham-rang-benh-tim-mach", "mon-co-rang-hinh-chem", "viem-loi-va-viem-nha-chu", "nut-rang-sau-chan-rang", "phong-ngua-sau-rang-sua"];
+const FEATURED_ARTICLE_IDS = ["nt-01-chan-doan-benh-ly-tuy-rang", "sau-rang-va-phuc-hoi-mid", "kham-rang-benh-tim-mach", "mon-co-rang-hinh-chem", "viem-loi-va-viem-nha-chu", "nut-rang-sau-chan-rang", "phong-ngua-sau-rang-sua"];
 
 const ARTICLE_CARD_META = {
+  "nt-01-chan-doan-benh-ly-tuy-rang": {
+    "category": "noi-nha",
+    "tag": "Nội nha bảo tồn · Triết lý MID",
+    "meta": "CHẨN ĐOÁN BẢO TỒN TỦY SỐNG",
+    "cardTitle": "NT-01: Chẩn đoán bệnh lý tủy răng: Từ bệnh sử, triệu chứng đến nghiệm pháp và chẩn đoán phân biệt",
+    "summary": "Đau răng đừng vội lấy tủy! Tìm hiểu quy trình thăm khám bệnh sử, thử lạnh, thử điện, nghiệm pháp cắn và chẩn đoán phân biệt để giữ trọn tủy sống tự nhiên theo triết lý MID.",
+    "thumb": "images/nt-01-chan-doan-benh-ly-tuy-rang.jpg",
+    "thumbAlt": "NT-01: Chẩn đoán bệnh lý tủy răng: Từ bệnh sử, triệu chứng đến nghiệm pháp và chẩn đoán phân biệt"
+  },
   "kham-rang-benh-tim-mach": {
     "category": "du-phong",
     "tag": "Dự phòng · An toàn tim mạch",
