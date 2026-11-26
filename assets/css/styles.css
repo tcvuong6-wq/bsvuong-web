@@ -308,34 +308,80 @@ button, input, select, textarea {
   color: var(--deep-teal-dark);
 }
 .hero__desc {
-  font-size: 1.08rem;
-  color: var(--muted);
+  font-size: 1.14rem;
+  line-height: 1.72;
+  color: #2f454b;
   margin: 0 0 24px;
-  max-width: 560px;
+  max-width: 580px;
 }
 .hero__pillars {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 .pill {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 999px;
-  padding: 6px 14px;
-  font-size: 0.85rem;
+  padding: 8px 16px;
+  font-size: 0.96rem;
   font-weight: 600;
-  color: var(--deep-teal);
+  color: var(--deep-teal-dark);
 }
 .hero__actions {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
+}
+.hero__quick-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 22px;
+  margin-bottom: 24px;
+}
+.hero__quick-link {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--deep-teal);
+  text-decoration: none;
+  border-bottom: 1.5px solid rgba(8, 126, 121, 0.3);
+  padding-bottom: 2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.hero__quick-link:hover,
+.hero__quick-link:focus-visible {
+  color: var(--deep-teal-dark);
+  border-bottom-color: var(--deep-teal-dark);
+}
+.hero__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.hero__stat {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+.hero__stat strong {
+  display: block;
+  font-size: 1.05rem;
+  color: var(--deep-teal-dark);
+  margin-bottom: 2px;
+}
+.hero__stat span {
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  color: var(--muted);
 }
 .hero__note {
-  font-size: 0.88rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
   color: var(--muted);
   margin: 0;
 }
@@ -436,42 +482,117 @@ button, input, select, textarea {
   max-width: 680px;
 }
 
-/* 3. Doctor & Clinic */
+/* 3. Doctor & Clinic (vCard + Clean Academic Bio) */
 .doctor-grid {
   display: grid;
-  grid-template-columns: 0.92fr 1.08fr;
+  grid-template-columns: 0.86fr 1.14fr;
   gap: 36px;
-  align-items: center;
+  align-items: start;
+}
+.doctor-vcard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 18px;
 }
 .doctor-photo {
-  background: var(--surface);
-  padding: 12px;
-  border-radius: var(--radius-lg);
+  background: var(--sea-mist);
+  padding: 8px;
+  border-radius: 18px;
   border: 1px solid var(--border);
-  box-shadow: var(--shadow-md);
 }
 .doctor-photo img {
   width: 100%;
-  border-radius: 16px;
+  border-radius: 14px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: top center;
+}
+.doctor-vcard__body {
+  padding: 18px 6px 4px;
+}
+.doctor-vcard__role {
+  display: inline-block;
+  background: var(--sea-mist);
+  color: var(--deep-teal-dark);
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+.doctor-vcard__name {
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  color: var(--deep-teal-dark);
+  margin: 0 0 6px;
+}
+.doctor-vcard__exp {
+  font-size: 0.98rem;
+  color: var(--muted);
+  margin: 0 0 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+.doctor-vcard__contacts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+.doctor-vcard__contacts li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+.doctor-vcard__contacts li > span:first-child {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: var(--sea-mist);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1rem;
+}
+.doctor-vcard__contacts small {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.doctor-vcard__contacts a {
+  color: var(--deep-teal-dark);
+  text-decoration: none;
+}
+.doctor-vcard__contacts a:hover {
+  text-decoration: underline;
+}
+.doctor-bio .section__lead {
+  font-size: 1.08rem;
+  line-height: 1.72;
 }
 .doctor-facts {
   list-style: none;
   padding: 0;
   margin: 20px 0 24px;
   display: grid;
-  gap: 12px;
+  gap: 14px;
 }
 .doctor-facts li {
   display: flex;
   gap: 12px;
   align-items: flex-start;
   background: var(--surface);
-  padding: 12px 16px;
+  padding: 14px 18px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
+  font-size: 1.02rem;
+  line-height: 1.62;
 }
 .doctor-facts li span:first-child {
   color: var(--deep-teal);
@@ -482,15 +603,16 @@ button, input, select, textarea {
   border-radius: var(--radius-md);
   overflow: hidden;
   border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
 }
 .clinic-inline-photo img {
   width: 100%;
-  max-height: 240px;
+  max-height: 250px;
   object-fit: cover;
 }
 .clinic-inline-photo figcaption {
-  padding: 10px 14px;
-  font-size: 0.85rem;
+  padding: 12px 16px;
+  font-size: 0.94rem;
   color: var(--muted);
   background: var(--surface);
 }
@@ -1109,7 +1231,7 @@ button, input, select, textarea {
   .hero {
     padding: 40px 0 56px;
   }
-  .pillars-grid, .services-grid, .articles-grid, .journey-grid, .form-row, .related-list {
+  .pillars-grid, .services-grid, .articles-grid, .journey-grid, .form-row, .related-list, .hero__stats {
     grid-template-columns: 1fr;
   }
   .mobile-bar {
