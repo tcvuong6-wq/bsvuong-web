@@ -9,11 +9,11 @@
 
 ## 1. DANH MỤC TỆP BẢN NHÁP ĐÃ RÀ SOÁT TRONG `D:\bsvuong-web\ban_nhap`
 
-1. **Bản thảo gốc từ Tác nhân Biên tập:**  
+1. **Bản thảo gốc từ Tác nhân Biên tập:**
    `D:\bsvuong-web\ban_nhap\01_ban_thao_bien_tap_rang_nhay_cam_mid.md`
-2. **Bản định dạng Markdown chuẩn xuất bản từ Tác nhân Kỹ thuật Web:**  
+2. **Bản định dạng Markdown chuẩn xuất bản từ Tác nhân Kỹ thuật Web:**
    `D:\bsvuong-web\ban_nhap\cham_soc_rang_nhay_cam_e_buot_tuoi_trung_nien_mid.md`
-3. **Bản giao diện HTML5 xem trước (Preview) kèm mã nhúng `index.html`:**  
+3. **Bản giao diện HTML5 xem trước (Preview) kèm mã nhúng `index.html`:**
    `D:\bsvuong-web\ban_nhap\cham_soc_rang_nhay_cam_e_buot_tuoi_trung_nien_mid.html`
 
 ---
@@ -22,7 +22,7 @@
 
 ### 2.1. Kiểm tra chính tả, ngữ pháp tiếng Việt và giọng văn Bác sĩ Trịnh Công Vương
 * **Chính tả & Ngữ pháp:** Đã rà soát toàn bộ từng câu, chữ và dấu câu trên cả 3 tệp. Không có lỗi chính tả tiếng Việt, không có lỗi đánh máy hay lỗi ngữ pháp. Cách trình bày mạch lạc, khúc chiết, dễ đọc đối với độc giả tuổi trung niên và cao tuổi.
-* **Giọng văn & Phong cách truyền nghề:** 
+* **Giọng văn & Phong cách truyền nghề:**
   * Giữ trọn sự ấm áp, điềm đạm, ân cần của một người thầy thuốc hơn 40 năm gắn bó với chiếc ghế nha khoa (*"Cô bác và anh chị thân mến"*, *"Hơn 40 năm gắn bó với chiếc ghế nha khoa..."*).
   * Giải thích cơ chế y khoa sâu sắc bằng hình ảnh gần gũi (*"tấm áo giáp"*, *"kéo cưa"*, *"lá chắn tái khoáng"*, *"nút chặn sinh học"*, *"kho dự trữ và giải phóng Fluoride"*), giúp bệnh nhân giải tỏa tâm lý hoang mang sợ phải diệt tủy hàng loạt hoặc mài răng bọc sứ.
 * **Tinh chỉnh hoàn thiện trực tiếp (Đạt 100%):** Đã đồng bộ hóa cách đánh số thứ tự rõ ràng đủ **5 phần (1. Tiêu đề, 2. Vấn đề, 3. Nguyên nhân, 4. Giải pháp, 5. Lời khuyên đặt lịch)** giữa tệp Markdown xuất bản (`cham_soc_rang_nhay_cam_e_buot_tuoi_trung_nien_mid.md`) và tệp HTML xem trước (`cham_soc_rang_nhay_cam_e_buot_tuoi_trung_nien_mid.html`) khớp tuyệt đối với bản thảo gốc (`01_ban_thao_bien_tap_rang_nhay_cam_mid.md`).

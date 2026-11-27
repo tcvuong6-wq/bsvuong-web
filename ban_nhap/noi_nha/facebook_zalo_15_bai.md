@@ -43,9 +43,9 @@ Tại Phòng khám Nha khoa Gia đình, mỗi chiếc răng đều được thă
 
 👉 Khi răng có dấu hiệu ê buốt kéo dài hoặc đau khi ăn nhai, hãy thăm khám sớm để giữ trọn tủy sống tự nhiên nhé!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -71,9 +71,9 @@ Bí mật nằm ở ranh giới giữa **Viêm tủy hồi phục** và **Viêm 
 
 💡 **Lời khuyên từ BS Vương:** Đừng chờ đến lúc mất ngủ vì đau răng mới đi khám. Khám sớm ngay khi mới ê buốt thoáng qua chính là cách tiết kiệm nhất để giữ lại chiếc răng sống khỏe!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -91,9 +91,9 @@ Tuy nhiên, trong Nội nha hiện đại, bác sĩ không bao giờ kết luậ
 
 ✅ Vì vậy, quy trình chuẩn tại phòng khám luôn là: **làm khô cô lập răng, thử đối chứng trên răng lành trước, sau đó kết hợp bệnh sử, gõ – sờ và phim X-quang** để chẩn đoán chính xác tuyệt đối, bảo tồn tối đa tủy sống cho cô bác!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -113,9 +113,9 @@ Nhiều cô bác đến khám kể: *"Bác sĩ ơi, răng tôi không đau nhứ
 
 👉 Nếu thấy nốt mụn lạ ở lợi hoặc đau khi ăn nhai, hãy đi kiểm tra sớm nhé!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -133,9 +133,9 @@ Theo nguyên tắc y khoa hiện đại, mỗi loại phim có vai trò riêng:
 
 ✅ Tại Phòng khám Nha khoa Gia đình, chúng tôi luôn tuân thủ nguyên tắc an toàn **ALARA**: không lạm dụng chụp 3D cho các ca đơn giản, chỉ chỉ định khi hình ảnh 3D thực sự giúp chẩn đoán chính xác hơn và bảo tồn răng thật an toàn hơn cho cô bác!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -154,9 +154,9 @@ Ngày nay, theo triết lý **Nha khoa can thiệp tối thiểu (MID)**, ngay c
 
 💡 **Điều kiện quan trọng nhất:** Cô bác cần đi khám sớm ngay khi răng mới ê buốt nhẹ, trước khi tủy bị viêm nặng hoặc hoại tử!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -173,9 +173,9 @@ Khi lỗ sâu tiến sát tủy răng, nhiều cô bác lo lắng: *"Chắc ch�
 
 ✅ Dù là kỹ thuật nào, chìa khóa thành công vẫn là **đi khám sớm** và **phục hồi kín khít tuyệt đối**!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -192,9 +192,9 @@ Cô bác có biết, một chiếc răng hàm có thể có từ **3 đến 4 (t
 
 ✅ Tại Phòng khám Nha khoa Gia đình, bác sĩ luôn đo đạc kỹ giải phẫu buồng tủy trên phim X-quang, dùng mũi khoan đầu tù an toàn và lần theo **"bản đồ đường rãnh tự nhiên" trên sàn buồng tủy** dưới ánh sáng phóng đại để vừa **tìm đủ ống tủy**, vừa **bảo tồn tối đa mô răng thật** cho cô bác!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -213,9 +213,9 @@ Vì phim X-quang chỉ là ảnh 2 chiều (đôi khi bị chồng hình hoặc 
 ✅ Hạn chế tối đa số lần chụp X-quang không cần thiết cho cô bác.
 ✅ Giúp quá trình làm sạch và trám bít diễn ra êm ái, nhẹ nhàng và an toàn vượt trội!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -234,9 +234,9 @@ Trong Nội nha hiện đại, nỗi lo này được kiểm soát chặt chẽ 
 
 ✅ Nhờ vậy, quá trình tạo hình ống tủy diễn ra **nhẹ nhàng, bảo tồn mô răng thật** và tạo điều kiện tốt nhất cho bước khử khuẩn – trám bít kín ba chiều!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -253,9 +253,9 @@ Nhiều cô bác nghĩ rằng lấy tủy chỉ là "rút sợi chỉ tủy ra r
 🔹 **Hoạt hóa siêu âm/âm thanh:** Tạo dòng xoáy vi mô đưa thuốc rửa len lỏi vào tận các nhánh phụ mà trâm không với tới.
 🔹 **Kim bơm thoát bên an toàn:** Đặt đúng khoảng cách an toàn dưới chóp, bơm chậm nhẹ nhàng dưới **đê cao su cô lập** để bảo vệ tuyệt đối niêm mạc miệng cho cô bác!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -273,9 +273,9 @@ Bởi vì một ca điều trị nội nha thành công lâu dài luôn cần **
 
 ✅ Tùy mức độ mất mô răng, bác sĩ sẽ tư vấn giải pháp phục hồi bảo tồn tối đa (trám dán sinh học hoặc Onlay/Overlay ôm giữ múi răng) để cô bác ăn nhai chắc chắn dài lâu!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -294,9 +294,9 @@ Vì sao răng đã lấy tủy lại tái viêm?
 
 ✅ Với sự hỗ trợ của **hình ảnh 3D CBCT, độ phóng đại và vật liệu sinh học Bioceramic**, bác sĩ có thể lấy sạch vật liệu cũ, tìm đúng ống tủy bị bỏ sót, khử khuẩn sâu và trám bít kín lại để xương quanh chóp tự lành thương — **giữ lại chiếc răng thật quý giá** cho cô bác!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -316,9 +316,9 @@ Ngoài ra, khi thấy vừa có lỗ rò ở lợi vừa có túi sâu, bác sĩ
 
 👉 Bỏ ngay thói quen cắn đá viên, càng cua, hạt cứng và đi khám ngay khi thấy nhói lúc nhai nhé!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---
@@ -341,9 +341,9 @@ Nhiều cô bác thấy lấy tủy xong hết đau là yên tâm không đi ki�
 
 👉 Cô bác đừng quên tái khám định kỳ 6–12 tháng/lần để giữ chiếc răng thật khỏe mạnh trọn đời nhé!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
 
 ---

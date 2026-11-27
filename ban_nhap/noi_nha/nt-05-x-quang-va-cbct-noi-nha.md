@@ -1,8 +1,8 @@
 # NT-05: X-quang và CBCT trong Nội nha: Chỉ định, giới hạn, lợi ích và nguy cơ bức xạ
 
-**Mã bài:** NT-05 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-05-x-quang-va-cbct-noi-nha.jpg`  
+**Mã bài:** NT-05 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-05-x-quang-va-cbct-noi-nha.jpg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -57,7 +57,7 @@ Theo nguyên tắc y khoa hiện đại, mỗi loại phim có vai trò riêng:
 
 ✅ Tại Phòng khám Nha khoa Gia đình, chúng tôi luôn tuân thủ nguyên tắc an toàn **ALARA**: không lạm dụng chụp 3D cho các ca đơn giản, chỉ chỉ định khi hình ảnh 3D thực sự giúp chẩn đoán chính xác hơn và bảo tồn răng thật an toàn hơn cho cô bác!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

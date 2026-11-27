@@ -1,8 +1,8 @@
 # NT-13: Nội nha lại – Retreatment: Nguyên nhân thất bại, chỉ định và tiên lượng
 
-**Mã bài:** NT-13 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-13-noi-nha-lai-retreatment.svg`  
+**Mã bài:** NT-13 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-13-noi-nha-lai-retreatment.svg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -57,7 +57,7 @@ Vì sao răng đã lấy tủy lại tái viêm?
 
 ✅ Với sự hỗ trợ của **hình ảnh 3D CBCT, độ phóng đại và vật liệu sinh học Bioceramic**, bác sĩ có thể lấy sạch vật liệu cũ, tìm đúng ống tủy bị bỏ sót, khử khuẩn sâu và trám bít kín lại để xương quanh chóp tự lành thương — **giữ lại chiếc răng thật quý giá** cho cô bác!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

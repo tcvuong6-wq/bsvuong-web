@@ -1,8 +1,8 @@
 # NT-02: Viêm tủy hồi phục và không hồi phục: Cơ chế bệnh sinh, dấu hiệu và quyết định điều trị
 
-**Mã bài:** NT-02 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-02-viem-tuy-hoi-phuc-khong-hoi-phuc.jpg`  
+**Mã bài:** NT-02 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-02-viem-tuy-hoi-phuc-khong-hoi-phuc.jpg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -71,7 +71,7 @@ Bí mật nằm ở ranh giới giữa **Viêm tủy hồi phục** và **Viêm 
 
 💡 **Lời khuyên từ BS Vương:** Đừng chờ đến lúc mất ngủ vì đau răng mới đi khám. Khám sớm ngay khi mới ê buốt thoáng qua chính là cách tiết kiệm nhất để giữ lại chiếc răng sống khỏe!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

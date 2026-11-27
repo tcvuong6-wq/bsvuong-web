@@ -1,8 +1,8 @@
 # NT-14: Răng nứt và tổn thương nội nha – nha chu: Chẩn đoán phân biệt và khả năng bảo tồn
 
-**Mã bài:** NT-14 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-14-rang-nut-va-ton-thuong-noi-nha-nha-chu.svg`  
+**Mã bài:** NT-14 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-14-rang-nut-va-ton-thuong-noi-nha-nha-chu.svg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -49,7 +49,7 @@ Ngoài ra, khi thấy vừa có lỗ rò ở lợi vừa có túi sâu, bác sĩ
 
 👉 Bỏ ngay thói quen cắn đá viên, càng cua, hạt cứng và đi khám ngay khi thấy nhói lúc nhai nhé!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

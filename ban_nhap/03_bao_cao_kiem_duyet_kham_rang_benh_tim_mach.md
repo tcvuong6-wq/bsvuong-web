@@ -1,7 +1,7 @@
 # BÁO CÁO KIỂM DUYỆT BẢN THẢO BÀI VIẾT MỚI
 
-**Bài viết:** *Khám răng khi có bệnh tim mạch cần chuẩn bị gì để điều trị nhẹ nhàng và an toàn?*  
-**ID bài viết:** `kham-rang-benh-tim-mach` · **Chuyên mục:** `du-phong`  
+**Bài viết:** *Khám răng khi có bệnh tim mạch cần chuẩn bị gì để điều trị nhẹ nhàng và an toàn?*
+**ID bài viết:** `kham-rang-benh-tim-mach` · **Chuyên mục:** `du-phong`
 **Kết luận kiểm duyệt:** **ĐẠT CHUẨN — SẴN SÀNG TRÌNH BÁC VƯƠNG DUYỆT XUẤT BẢN**
 
 ---

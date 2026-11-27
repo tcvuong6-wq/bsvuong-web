@@ -1,8 +1,8 @@
 # NT-09: Xác định chiều dài làm việc: Máy định vị chóp, X-quang và kiểm soát sai số
 
-**Mã bài:** NT-09 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-09-xac-dinh-chieu-dai-lam-viec.jpg`  
+**Mã bài:** NT-09 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-09-xac-dinh-chieu-dai-lam-viec.jpg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -50,7 +50,7 @@ Vì phim X-quang chỉ là ảnh 2 chiều (đôi khi bị chồng hình hoặc 
 ✅ Hạn chế tối đa số lần chụp X-quang không cần thiết cho cô bác.
 ✅ Giúp quá trình làm sạch và trám bít diễn ra êm ái, nhẹ nhàng và an toàn vượt trội!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

@@ -1,8 +1,8 @@
 # NT-06: Điều trị bảo tồn tủy sống – VPT: Chỉ định, lựa chọn ca, vật liệu và tiên lượng
 
-**Mã bài:** NT-06 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-06-dieu-tri-bao-ton-tuy-song-vpt.jpg`  
+**Mã bài:** NT-06 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-06-dieu-tri-bao-ton-tuy-song-vpt.jpg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -60,7 +60,7 @@ Ngày nay, theo triết lý **Nha khoa can thiệp tối thiểu (MID)**, ngay c
 
 💡 **Điều kiện quan trọng nhất:** Cô bác cần đi khám sớm ngay khi răng mới ê buốt nhẹ, trước khi tủy bị viêm nặng hoặc hoại tử!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

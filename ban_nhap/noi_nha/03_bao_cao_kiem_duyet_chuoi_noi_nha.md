@@ -1,7 +1,7 @@
 # BÁO CÁO KIỂM DUYỆT — CHUỖI 15 BÀI VIẾT NỘI NHA (NT-01 ĐẾN NT-15)
 
-**Ngày kiểm duyệt:** 22/11/2026  
-**Người thực hiện:** Tác nhân Kiểm duyệt (`tac_nhan_kiem_duyet`) theo quy trình [huong_dan_agent.md](file:///d:/bsvuong-web/huong_dan_agent.md)  
+**Ngày kiểm duyệt:** 22/11/2026
+**Người thực hiện:** Tác nhân Kiểm duyệt (`tac_nhan_kiem_duyet`) theo quy trình [huong_dan_agent.md](file:///d:/bsvuong-web/huong_dan_agent.md)
 **Đối tượng kiểm duyệt:** 15 bài viết chuyên sâu (`.md` & `.html`), 15 bài đăng Facebook/Zalo, và 15 hình ảnh minh họa tại `d:\bsvuong-web\ban_nhap\noi_nha\` và `d:\bsvuong-web\images\`.
 
 ---

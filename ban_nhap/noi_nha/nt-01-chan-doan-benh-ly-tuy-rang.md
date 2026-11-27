@@ -1,8 +1,8 @@
 # NT-01: Chẩn đoán bệnh lý tủy răng: Từ bệnh sử, triệu chứng đến nghiệm pháp và chẩn đoán phân biệt
 
-**Mã bài:** NT-01 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-01-chan-doan-benh-ly-tuy-rang.jpg`  
+**Mã bài:** NT-01 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-01-chan-doan-benh-ly-tuy-rang.jpg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -75,7 +75,7 @@ Tại Phòng khám Nha khoa Gia đình, mỗi chiếc răng đều được thă
 
 👉 Khi răng có dấu hiệu ê buốt kéo dài hoặc đau khi ăn nhai, hãy thăm khám sớm để giữ trọn tủy sống tự nhiên nhé!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

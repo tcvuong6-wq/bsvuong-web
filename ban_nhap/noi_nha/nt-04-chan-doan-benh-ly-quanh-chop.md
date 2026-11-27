@@ -1,8 +1,8 @@
 # NT-04: Chẩn đoán bệnh lý quanh chóp: Phân loại, gõ, sờ, hình ảnh và đánh giá tổn thương
 
-**Mã bài:** NT-04 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-04-chan-doan-benh-ly-quanh-chop.jpg`  
+**Mã bài:** NT-04 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-04-chan-doan-benh-ly-quanh-chop.jpg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -62,7 +62,7 @@ Nhiều cô bác đến khám kể: *"Bác sĩ ơi, răng tôi không đau nhứ
 
 👉 Nếu thấy nốt mụn lạ ở lợi hoặc đau khi ăn nhai, hãy đi kiểm tra sớm nhé!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

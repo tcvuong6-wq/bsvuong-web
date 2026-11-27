@@ -1,8 +1,8 @@
 # NT-08: Mở tủy và định vị ống tủy: Giải phẫu, sai sót và phòng ngừa thủng
 
-**Mã bài:** NT-08 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-08-mo-tuy-va-dinh-vi-ong-tuy.jpg`  
+**Mã bài:** NT-08 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-08-mo-tuy-va-dinh-vi-ong-tuy.jpg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -52,7 +52,7 @@ Cô bác có biết, một chiếc răng hàm có thể có từ **3 đến 4 (t
 
 ✅ Tại Phòng khám Nha khoa Gia đình, bác sĩ luôn đo đạc kỹ giải phẫu buồng tủy trên phim X-quang, dùng mũi khoan đầu tù an toàn và lần theo **"bản đồ đường rãnh tự nhiên" trên sàn buồng tủy** dưới ánh sáng phóng đại để vừa **tìm đủ ống tủy**, vừa **bảo tồn tối đa mô răng thật** cho cô bác!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

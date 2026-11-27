@@ -1,8 +1,8 @@
 # NT-10: Tạo hình hệ thống ống tủy: NiTi, glide path, vận động quay và nguy cơ gãy dụng cụ
 
-**Mã bài:** NT-10 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-10-tao-hinh-he-thong-ong-tuy.svg`  
+**Mã bài:** NT-10 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-10-tao-hinh-he-thong-ong-tuy.svg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -64,7 +64,7 @@ Trong Nội nha hiện đại, nỗi lo này được kiểm soát chặt chẽ 
 
 ✅ Nhờ vậy, quá trình tạo hình ống tủy diễn ra **nhẹ nhàng, bảo tồn mô răng thật** và tạo điều kiện tốt nhất cho bước khử khuẩn – trám bít kín ba chiều!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

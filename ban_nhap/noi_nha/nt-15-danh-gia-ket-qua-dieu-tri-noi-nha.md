@@ -1,8 +1,8 @@
 # NT-15: Đánh giá kết quả điều trị Nội nha: Lành thương, theo dõi và tiêu chí thành công
 
-**Mã bài:** NT-15 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-15-danh-gia-ket-qua-dieu-tri-noi-nha.svg`  
+**Mã bài:** NT-15 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-15-danh-gia-ket-qua-dieu-tri-noi-nha.svg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -64,7 +64,7 @@ Nhiều cô bác thấy lấy tủy xong hết đau là yên tâm không đi ki�
 
 👉 Cô bác đừng quên tái khám định kỳ 6–12 tháng/lần để giữ chiếc răng thật khỏe mạnh trọn đời nhé!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

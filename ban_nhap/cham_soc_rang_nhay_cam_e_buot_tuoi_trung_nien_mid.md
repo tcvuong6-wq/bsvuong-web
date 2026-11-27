@@ -28,7 +28,7 @@ Tình trạng răng nhạy cảm (**quá cảm ngà**) tuy không gây đau nh�
 
 Đáng trăn trở hơn cả là tâm lý hoang mang khi cô bác tự soi gương thấy sát viền lợi có những rãnh khuyết lõm vào như hình chữ V, hoặc thấy chân răng dài ra và ngả màu vàng sậm. Nghe lời truyền miệng hoặc đọc những thông tin quảng cáo tràn lan, không ít cô bác đinh ninh rằng răng mình đã bị "hỏng tủy", phải diệt tủy hàng loạt hoặc phải mài nhỏ cả hàm răng thật để bọc răng sứ thì mới chấm dứt được cơn ê buốt. Chính nỗi sợ tiếng mũi khoan mài răng và sợ mất đi tủy sống đã khiến nhiều người âm thầm chịu đựng suốt nhiều năm, để đến khi tổn thương ăn sâu sát buồng tủy hoặc gãy ngang thân răng thì việc cứu chữa đã trở nên phức tạp hơn rất nhiều.
 
-> **🌿 Thông điệp cốt lõi từ Triết lý MID (Nha khoa can thiệp tối thiểu):**  
+> **🌿 Thông điệp cốt lõi từ Triết lý MID (Nha khoa can thiệp tối thiểu):**
 > Đa số các trường hợp răng nhạy cảm, ê buốt ở tuổi trung niên hoàn toàn có thể kiểm soát và phục hồi êm dịu mà **KHÔNG cần lấy tủy, KHÔNG cần khoan mài mô răng lành hay bọc sứ xâm lấn.**
 
 ---

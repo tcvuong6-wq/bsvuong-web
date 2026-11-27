@@ -1,8 +1,8 @@
 # Khám răng khi có bệnh tim mạch cần chuẩn bị gì để điều trị nhẹ nhàng và an toàn?
 
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng — Triết lý Nha khoa can thiệp tối thiểu MID)  
-**Đối tượng độc giả:** Cộng đồng tuổi trung niên (35–58 tuổi) và gia đình  
-**Phòng khám:** Phòng khám Nha khoa Gia đình — Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`  
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng — Triết lý Nha khoa can thiệp tối thiểu MID)
+**Đối tượng độc giả:** Cộng đồng tuổi trung niên (35–58 tuổi) và gia đình
+**Phòng khám:** Phòng khám Nha khoa Gia đình — Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 **Hình minh họa:** `kham-rang-benh-tim-mach.jpg`
 
 ---
@@ -19,11 +19,11 @@ Nhiều người vì quá lo lắng nên cứ cố chịu đựng những cơn �
 
 Ở tuổi 35–58 và lớn tuổi hơn, bệnh lý tim mạch (tăng huyết áp, bệnh mạch vành, rối loạn nhịp, bệnh van tim...) thường song hành với các vấn đề răng miệng như cao răng, viêm lợi, viêm nha chu hay răng sâu vỡ. Tuy nhiên, khi bước vào phòng khám nha khoa, cô bác thường đối mặt với ba rào cản tâm lý rất phổ biến:
 
-1. **Sợ đau, sợ căng thẳng làm tim đập nhanh, tăng huyết áp:**  
+1. **Sợ đau, sợ căng thẳng làm tim đập nhanh, tăng huyết áp:**
    Ám ảnh tiếng máy khoan hay cảm giác đau nhói khiến nhiều người hồi hộp quá mức ngay từ lúc ngồi chờ, làm nhịp tim và huyết áp dao động bất lợi.
-2. **Sợ chảy máu khó cầm khi lấy cao răng hoặc nhổ răng:**  
+2. **Sợ chảy máu khó cầm khi lấy cao răng hoặc nhổ răng:**
    Người đang dùng thuốc chống đông hoặc thuốc kháng kết tập tiểu cầu thường lo vết thương sẽ chảy máu kéo dài, nên ngại đi khám dù lợi đang sưng chảy máu mỗi ngày.
-3. **Tự ý ngừng thuốc tim mạch trước ngày hẹn:**  
+3. **Tự ý ngừng thuốc tim mạch trước ngày hẹn:**
    Đây là sai lầm nguy hiểm nhất mà tôi từng chứng kiến. Vì sợ chảy máu khi làm răng, một số cô bác tự ngưng thuốc huyết áp, aspirin hoặc thuốc chống đông vài ngày trước khi đến khám mà không hỏi ý kiến bác sĩ tim mạch. Việc tự ý bỏ thuốc có thể làm tăng nguy cơ hình thành huyết khối, nhồi máu cơ tim hoặc đột quỵ, nguy hiểm hơn rất nhiều so với việc xử lý chảy máu tại chỗ trong nha khoa.
 
 ---
@@ -33,9 +33,9 @@ Nhiều người vì quá lo lắng nên cứ cố chịu đựng những cơn �
 Để hiểu vì sao bác sĩ nha khoa luôn hỏi rất kỹ về bệnh sử tim mạch và đơn thuốc trước khi chạm vào chiếc răng của cô bác, chúng ta cần nhìn vào hai khía cạnh sinh học sau:
 
 ### Mối liên hệ giữa nhiễm khuẩn răng miệng và sức khỏe tim mạch
-Khoang miệng không tách rời khỏi cơ thể. Khi bị viêm lợi, viêm nha chu kéo dài hoặc có ổ nhiễm trùng quanh chóp răng, vi khuẩn và các chất trung gian gây viêm từ vùng lợi tổn thương có thể đi vào dòng máu qua các vi mạch mỗi khi ăn nhai hoặc đánh răng.  
-- Tình trạng viêm mạn tính kéo dài tạo thêm gánh nặng cho hệ tuần hoàn và thành mạch máu.  
-- Đặc biệt ở những người có bệnh van tim, van tim nhân tạo hoặc từng có tiền sử viêm nội tâm mạc nhiễm khuẩn, vi khuẩn từ ổ nhiễm trùng răng miệng có thể theo máu đến bám vào lớp nội tâm mạc hoặc van tim, gây biến chứng nghiêm trọng.  
+Khoang miệng không tách rời khỏi cơ thể. Khi bị viêm lợi, viêm nha chu kéo dài hoặc có ổ nhiễm trùng quanh chóp răng, vi khuẩn và các chất trung gian gây viêm từ vùng lợi tổn thương có thể đi vào dòng máu qua các vi mạch mỗi khi ăn nhai hoặc đánh răng.
+- Tình trạng viêm mạn tính kéo dài tạo thêm gánh nặng cho hệ tuần hoàn và thành mạch máu.
+- Đặc biệt ở những người có bệnh van tim, van tim nhân tạo hoặc từng có tiền sử viêm nội tâm mạc nhiễm khuẩn, vi khuẩn từ ổ nhiễm trùng răng miệng có thể theo máu đến bám vào lớp nội tâm mạc hoặc van tim, gây biến chứng nghiêm trọng.
 Do đó, **chăm sóc răng miệng sạch sẽ, xử lý sớm ổ viêm chính là một cách bảo vệ trái tim**.
 
 ### Vì sao can thiệp nha khoa ở người bệnh tim cần chuẩn bị kỹ?
@@ -100,10 +100,10 @@ Nếu cô bác hoặc người thân đang có bệnh lý tim mạch và còn b�
 
 ---
 
-**Thông tin tư vấn & thăm khám:**  
-**Phòng khám Nha khoa Gia đình — Bác sĩ Trịnh Công Vương**  
-- **Địa chỉ:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-- **Điện thoại & Zalo:** `0912 343 858`  
-- **Website:** `https://tcvuong6-wq.github.io/bsvuong-web/`  
+**Thông tin tư vấn & thăm khám:**
+**Phòng khám Nha khoa Gia đình — Bác sĩ Trịnh Công Vương**
+- **Địa chỉ:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+- **Điện thoại & Zalo:** `0912 343 858`
+- **Website:** `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 *(Bài viết nhằm mục đích giáo dục sức khỏe cộng đồng theo triết lý Nha khoa can thiệp tối thiểu MID, không thay thế cho thăm khám và chỉ định trực tiếp của bác sĩ chuyên khoa tim mạch và nha khoa trên lâm sàng.)*

@@ -1,8 +1,8 @@
 # NT-03: Thử lạnh, thử điện và đánh giá tủy: Giá trị, giới hạn, sai số và cách diễn giải
 
-**Mã bài:** NT-03 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-03-thu-lanh-thu-dien-danh-gia-tuy.jpg`  
+**Mã bài:** NT-03 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-03-thu-lanh-thu-dien-danh-gia-tuy.jpg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -68,7 +68,7 @@ Tuy nhiên, trong Nội nha hiện đại, bác sĩ không bao giờ kết luậ
 
 ✅ Vì vậy, quy trình chuẩn tại phòng khám luôn là: **làm khô cô lập răng, thử đối chứng trên răng lành trước, sau đó kết hợp bệnh sử, gõ – sờ và phim X-quang** để chẩn đoán chính xác tuyệt đối, bảo tồn tối đa tủy sống cho cô bác!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

@@ -1,8 +1,8 @@
 # NT-12: Trám bít hệ thống ống tủy: Gutta-percha, sealer và kỹ thuật trám bít
 
-**Mã bài:** NT-12 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-12-tram-bit-he-thong-ong-tuy.svg`  
+**Mã bài:** NT-12 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-12-tram-bit-he-thong-ong-tuy.svg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -57,7 +57,7 @@ Bởi vì một ca điều trị nội nha thành công lâu dài luôn cần **
 
 ✅ Tùy mức độ mất mô răng, bác sĩ sẽ tư vấn giải pháp phục hồi bảo tồn tối đa (trám dán sinh học hoặc Onlay/Overlay ôm giữ múi răng) để cô bác ăn nhai chắc chắn dài lâu!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

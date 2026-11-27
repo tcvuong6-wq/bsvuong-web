@@ -1,6 +1,6 @@
 {
   "chuoi_bai": "noi_nha_15_bai",
-  "thu_tu_tiep_theo": "NT-02",
+  "thu_tu_tiep_theo": "NT-03",
   "da_dang": [
     {
       "ma_bai": "NT-01",
@@ -11,7 +11,17 @@
         "facebook_61584067525360",
         "facebook_61594599253941"
       ]
+    },
+    {
+      "ma_bai": "NT-02",
+      "tieu_de": "NT-02: Viêm tủy hồi phục và không hồi phục: Cơ chế bệnh sinh, dấu hiệu và quyết định điều trị",
+      "ngay_dang": "2026-11-27T09:39:20+07:00",
+      "kenh": [
+        "website",
+        "facebook_61584067525360",
+        "facebook_61594599253941"
+      ]
     }
   ],
-  "cap_nhat_lan_cuoi": "2026-11-26T14:10:45+07:00"
+  "cap_nhat_lan_cuoi": "2026-11-27T09:39:20+07:00"
 }

@@ -1,8 +1,8 @@
 # NT-11: Bơm rửa và khử khuẩn ống tủy: NaOCl, EDTA, hoạt hóa và phòng ngừa tai biến
 
-**Mã bài:** NT-11 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-11-bom-rua-va-khu-khuan-ong-tuy.svg`  
+**Mã bài:** NT-11 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-11-bom-rua-va-khu-khuan-ong-tuy.svg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -49,7 +49,7 @@ Nhiều cô bác nghĩ rằng lấy tủy chỉ là "rút sợi chỉ tủy ra r
 🔹 **Hoạt hóa siêu âm/âm thanh:** Tạo dòng xoáy vi mô đưa thuốc rửa len lỏi vào tận các nhánh phụ mà trâm không với tới.
 🔹 **Kim bơm thoát bên an toàn:** Đặt đúng khoảng cách an toàn dưới chóp, bơm chậm nhẹ nhàng dưới **đê cao su cô lập** để bảo vệ tuyệt đối niêm mạc miệng cho cô bác!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/

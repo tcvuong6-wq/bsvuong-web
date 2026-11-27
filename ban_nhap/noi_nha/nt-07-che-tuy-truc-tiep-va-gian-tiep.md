@@ -1,8 +1,8 @@
 # NT-07: Che tủy trực tiếp và gián tiếp: So sánh kỹ thuật, vật liệu và kết quả
 
-**Mã bài:** NT-07 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID  
-**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)  
-**Ảnh minh họa:** `images/nt-07-che-tuy-truc-tiep-va-gian-tiep.jpg`  
+**Mã bài:** NT-07 | **Chuyên mục:** Nội nha bảo tồn · Triết lý MID
+**Tác giả:** Bác sĩ Trịnh Công Vương (40 năm kinh nghiệm lâm sàng)
+**Ảnh minh họa:** `images/nt-07-che-tuy-truc-tiep-va-gian-tiep.jpg`
 **Phòng khám Nha khoa Gia đình:** Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên | ĐT & Zalo: `0912 343 858` | Website: `https://tcvuong6-wq.github.io/bsvuong-web/`
 
 ---
@@ -64,7 +64,7 @@ Khi lỗ sâu tiến sát tủy răng, nhiều cô bác lo lắng: *"Chắc ch�
 
 ✅ Dù là kỹ thuật nào, chìa khóa thành công vẫn là **đi khám sớm** và **phục hồi kín khít tuyệt đối**!
 
-📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**  
-🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên  
-📞 Hotline & Zalo: **0912 343 858**  
+📍 **Phòng khám Nha khoa Gia đình — BS Trịnh Công Vương**
+🏠 Số 15 đường Võ Nguyên Giáp, phường Đức Xuân, tỉnh Thái Nguyên
+📞 Hotline & Zalo: **0912 343 858**
 🌐 Website: https://tcvuong6-wq.github.io/bsvuong-web/
