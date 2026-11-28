@@ -30,4 +30,5 @@
   1. Bảng điều khiển chuyên nghiệp / Trang chính: `https://www.facebook.com/professional_dashboard`
   2. Trang Facebook 1: `https://www.facebook.com/profile.php?id=61584067525360`
   3. Trang Facebook 2: `https://www.facebook.com/profile.php?id=61594599253941`
+  4. Tài khoản Facebook cá nhân / Trạng thái trang: `https://www.facebook.com/profile_status`
 - Nội dung đăng kèm ảnh minh họa gốc trong `D:\bsvuong-web\` và đường dẫn bài viết `https://tcvuong6-wq.github.io/bsvuong-web/`.

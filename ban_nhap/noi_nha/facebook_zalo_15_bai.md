@@ -5,6 +5,7 @@
   1. https://www.facebook.com/professional_dashboard
   2. https://www.facebook.com/profile.php?id=61584067525360
   3. https://www.facebook.com/profile.php?id=61594599253941
+  4. https://www.facebook.com/profile_status
 
 | Ngày dự kiến | Mã bài | Tiêu đề | Ảnh minh họa |
 | :--- | :--- | :--- | :--- |
